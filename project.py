@@ -3,14 +3,14 @@ import argparse
 import json
 import numpy as np
 import torch
-from code.Screen2Vec import Screen2Vec
+from s2v_code.Screen2Vec import Screen2Vec
 from sentence_transformers import SentenceTransformer
-from code.prediction import TracePredictor
-from code.autoencoder import ScreenLayout, LayoutAutoEncoder
-from code.UI_embedding.UI2Vec import HiddenLabelPredictorModel, UI2Vec
-from code.dataset.playstore_scraper import get_app_description
-from code.dataset.rico_utils import get_all_labeled_uis_from_rico_screen, ScreenInfo
-from code.dataset.rico_dao import load_rico_screen_dict
+from s2v_code.prediction import TracePredictor
+from s2v_code.autoencoder import ScreenLayout, LayoutAutoEncoder
+from s2v_code.UI_embedding.UI2Vec import HiddenLabelPredictorModel, UI2Vec
+from s2v_code.dataset.playstore_scraper import get_app_description
+from s2v_code.dataset.rico_utils import get_all_labeled_uis_from_rico_screen, ScreenInfo
+from s2v_code.dataset.rico_dao import load_rico_screen_dict
 
 import pandas
 from sklearn.metrics import f1_score, recall_score, precision_score
@@ -30,13 +30,12 @@ import random
 # datetime object containing current date and time
 now = datetime.now()
 
-
 # path to important folders (may need to be changed)
-screenvec = os.path.join(os.getcwd(), "code")
+screenvec = os.path.join(os.getcwd(), "s2v_code")
 rico_dataset = os.path.join(os.path.dirname(os.getcwd()), \
 "RICO_CLAY_data", "unique_uis.tar", "unique_uis", "combined")
 
-pretrained_model = os.path.join(screenvec, "pre-trained_model")
+pretrained_model = os.path.join(screenvec, "s2v_pre-trained_model")
 saved_tensors = os.path.join(os.getcwd(), "rico_tensors")
 
 # path of pre-trained model
