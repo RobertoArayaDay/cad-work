@@ -1,0 +1,666 @@
+{
+  "activity_name": "com.duckduckgo.mobile.android/com.duckduckgo.mobile.android.activity.DuckDuckGo", 
+  "activity": {
+    "root": {
+      "scrollable-horizontal": false, 
+      "draw": true, 
+      "ancestors": [
+        "android.widget.FrameLayout", 
+        "android.view.ViewGroup", 
+        "android.view.View", 
+        "java.lang.Object"
+      ], 
+      "clickable": false, 
+      "pressed": "not_pressed", 
+      "focusable": false, 
+      "long-clickable": false, 
+      "enabled": true, 
+      "bounds": [
+        789, 
+        98, 
+        1426, 
+        939
+      ], 
+      "visibility": "visible", 
+      "content-desc": [
+        null
+      ], 
+      "rel-bounds": [
+        0, 
+        0, 
+        637, 
+        841
+      ], 
+      "focused": false, 
+      "selected": false, 
+      "scrollable-vertical": false, 
+      "children": [
+        {
+          "scrollable-horizontal": false, 
+          "draw": true, 
+          "ancestors": [
+            "android.widget.FrameLayout", 
+            "android.view.ViewGroup", 
+            "android.view.View", 
+            "java.lang.Object"
+          ], 
+          "clickable": false, 
+          "pressed": "not_pressed", 
+          "focusable": false, 
+          "long-clickable": false, 
+          "enabled": true, 
+          "bounds": [
+            789, 
+            98, 
+            1426, 
+            939
+          ], 
+          "visibility": "visible", 
+          "content-desc": [
+            null
+          ], 
+          "rel-bounds": [
+            0, 
+            0, 
+            637, 
+            841
+          ], 
+          "focused": false, 
+          "selected": false, 
+          "scrollable-vertical": false, 
+          "children": [
+            {
+              "scrollable-horizontal": false, 
+              "draw": true, 
+              "ancestors": [
+                "android.view.ViewGroup", 
+                "android.view.View", 
+                "java.lang.Object"
+              ], 
+              "clickable": false, 
+              "pressed": "not_pressed", 
+              "focusable": false, 
+              "long-clickable": false, 
+              "enabled": true, 
+              "bounds": [
+                789, 
+                98, 
+                1426, 
+                939
+              ], 
+              "visibility": "visible", 
+              "content-desc": [
+                null
+              ], 
+              "rel-bounds": [
+                0, 
+                0, 
+                637, 
+                841
+              ], 
+              "focused": false, 
+              "selected": false, 
+              "scrollable-vertical": false, 
+              "children": [
+                {
+                  "resource-id": "com.duckduckgo.mobile.android:id/header_container", 
+                  "adapter-view": false, 
+                  "pointer": "aa39948", 
+                  "scrollable-horizontal": false, 
+                  "ancestors": [
+                    "android.view.ViewGroup", 
+                    "android.view.View", 
+                    "java.lang.Object"
+                  ], 
+                  "selected": false, 
+                  "content-desc": [
+                    null
+                  ], 
+                  "rel-bounds": [
+                    0, 
+                    0, 
+                    0, 
+                    0
+                  ], 
+                  "draw": true, 
+                  "focusable": false, 
+                  "long-clickable": false, 
+                  "visibility": "gone", 
+                  "focused": false, 
+                  "clickable": false, 
+                  "abs-pos": true, 
+                  "class": "android.widget.LinearLayout", 
+                  "visible-to-user": false, 
+                  "package": "com.duckduckgo.mobile.android", 
+                  "enabled": true, 
+                  "bounds": [
+                    789, 
+                    98, 
+                    789, 
+                    98
+                  ], 
+                  "pressed": "not_pressed", 
+                  "scrollable-vertical": false
+                }, 
+                {
+                  "resource-id": "com.duckduckgo.mobile.android:id/menu_listview", 
+                  "adapter-view": true, 
+                  "pointer": "a3e8dcf", 
+                  "children": [
+                    {
+                      "text": "Stories", 
+                      "resource-id": "com.duckduckgo.mobile.android:id/text1", 
+                      "adapter-view": false, 
+                      "pointer": "60c63e1", 
+                      "scrollable-horizontal": false, 
+                      "ancestors": [
+                        "android.widget.TextView", 
+                        "android.view.View", 
+                        "java.lang.Object"
+                      ], 
+                      "selected": false, 
+                      "content-desc": [
+                        null
+                      ], 
+                      "rel-bounds": [
+                        0, 
+                        0, 
+                        637, 
+                        168
+                      ], 
+                      "draw": false, 
+                      "focusable": false, 
+                      "long-clickable": false, 
+                      "visibility": "visible", 
+                      "focused": false, 
+                      "clickable": false, 
+                      "abs-pos": true, 
+                      "font-family": "sans-serif", 
+                      "class": "android.support.v7.widget.AppCompatTextView", 
+                      "visible-to-user": true, 
+                      "package": "com.duckduckgo.mobile.android", 
+                      "enabled": false, 
+                      "bounds": [
+                        789, 
+                        98, 
+                        1426, 
+                        266
+                      ], 
+                      "pressed": "not_pressed", 
+                      "scrollable-vertical": false
+                    }, 
+                    {
+                      "text": "Favorites", 
+                      "resource-id": "com.duckduckgo.mobile.android:id/text1", 
+                      "adapter-view": false, 
+                      "pointer": "abb4506", 
+                      "scrollable-horizontal": false, 
+                      "ancestors": [
+                        "android.widget.TextView", 
+                        "android.view.View", 
+                        "java.lang.Object"
+                      ], 
+                      "selected": false, 
+                      "content-desc": [
+                        null
+                      ], 
+                      "rel-bounds": [
+                        0, 
+                        168, 
+                        637, 
+                        336
+                      ], 
+                      "draw": false, 
+                      "focusable": false, 
+                      "long-clickable": false, 
+                      "visibility": "visible", 
+                      "focused": false, 
+                      "clickable": false, 
+                      "abs-pos": true, 
+                      "font-family": "sans-serif", 
+                      "class": "android.support.v7.widget.AppCompatTextView", 
+                      "visible-to-user": true, 
+                      "package": "com.duckduckgo.mobile.android", 
+                      "enabled": true, 
+                      "bounds": [
+                        789, 
+                        266, 
+                        1426, 
+                        434
+                      ], 
+                      "pressed": "not_pressed", 
+                      "scrollable-vertical": false
+                    }, 
+                    {
+                      "text": "Recents", 
+                      "resource-id": "com.duckduckgo.mobile.android:id/text1", 
+                      "adapter-view": false, 
+                      "pointer": "96867c7", 
+                      "scrollable-horizontal": false, 
+                      "ancestors": [
+                        "android.widget.TextView", 
+                        "android.view.View", 
+                        "java.lang.Object"
+                      ], 
+                      "selected": false, 
+                      "content-desc": [
+                        null
+                      ], 
+                      "rel-bounds": [
+                        0, 
+                        336, 
+                        637, 
+                        504
+                      ], 
+                      "draw": false, 
+                      "focusable": false, 
+                      "long-clickable": false, 
+                      "visibility": "visible", 
+                      "focused": false, 
+                      "clickable": false, 
+                      "abs-pos": true, 
+                      "font-family": "sans-serif", 
+                      "class": "android.support.v7.widget.AppCompatTextView", 
+                      "visible-to-user": true, 
+                      "package": "com.duckduckgo.mobile.android", 
+                      "enabled": true, 
+                      "bounds": [
+                        789, 
+                        434, 
+                        1426, 
+                        602
+                      ], 
+                      "pressed": "not_pressed", 
+                      "scrollable-vertical": false
+                    }, 
+                    {
+                      "text": "Settings", 
+                      "resource-id": "com.duckduckgo.mobile.android:id/text1", 
+                      "adapter-view": false, 
+                      "pointer": "bfd01f4", 
+                      "scrollable-horizontal": false, 
+                      "ancestors": [
+                        "android.widget.TextView", 
+                        "android.view.View", 
+                        "java.lang.Object"
+                      ], 
+                      "selected": false, 
+                      "content-desc": [
+                        null
+                      ], 
+                      "rel-bounds": [
+                        0, 
+                        504, 
+                        637, 
+                        672
+                      ], 
+                      "draw": false, 
+                      "focusable": false, 
+                      "long-clickable": false, 
+                      "visibility": "visible", 
+                      "focused": false, 
+                      "clickable": false, 
+                      "abs-pos": true, 
+                      "font-family": "sans-serif", 
+                      "class": "android.support.v7.widget.AppCompatTextView", 
+                      "visible-to-user": true, 
+                      "package": "com.duckduckgo.mobile.android", 
+                      "enabled": true, 
+                      "bounds": [
+                        789, 
+                        602, 
+                        1426, 
+                        770
+                      ], 
+                      "pressed": "not_pressed", 
+                      "scrollable-vertical": false
+                    }, 
+                    {
+                      "text": "Help & Feedback", 
+                      "resource-id": "com.duckduckgo.mobile.android:id/text1", 
+                      "adapter-view": false, 
+                      "pointer": "80a5d1d", 
+                      "scrollable-horizontal": false, 
+                      "ancestors": [
+                        "android.widget.TextView", 
+                        "android.view.View", 
+                        "java.lang.Object"
+                      ], 
+                      "selected": false, 
+                      "content-desc": [
+                        null
+                      ], 
+                      "rel-bounds": [
+                        0, 
+                        672, 
+                        637, 
+                        840
+                      ], 
+                      "draw": false, 
+                      "focusable": false, 
+                      "long-clickable": false, 
+                      "visibility": "visible", 
+                      "focused": false, 
+                      "clickable": false, 
+                      "abs-pos": true, 
+                      "font-family": "sans-serif", 
+                      "class": "android.support.v7.widget.AppCompatTextView", 
+                      "visible-to-user": true, 
+                      "package": "com.duckduckgo.mobile.android", 
+                      "enabled": true, 
+                      "bounds": [
+                        789, 
+                        770, 
+                        1426, 
+                        938
+                      ], 
+                      "pressed": "not_pressed", 
+                      "scrollable-vertical": false
+                    }
+                  ], 
+                  "scrollable-horizontal": false, 
+                  "ancestors": [
+                    "android.widget.AbsListView", 
+                    "android.widget.AdapterView", 
+                    "android.view.ViewGroup", 
+                    "android.view.View", 
+                    "java.lang.Object"
+                  ], 
+                  "selected": false, 
+                  "content-desc": [
+                    null
+                  ], 
+                  "rel-bounds": [
+                    0, 
+                    0, 
+                    637, 
+                    841
+                  ], 
+                  "draw": false, 
+                  "focusable": true, 
+                  "long-clickable": false, 
+                  "visibility": "visible", 
+                  "focused": true, 
+                  "clickable": true, 
+                  "abs-pos": true, 
+                  "class": "android.widget.ListView", 
+                  "visible-to-user": true, 
+                  "package": "com.duckduckgo.mobile.android", 
+                  "enabled": true, 
+                  "bounds": [
+                    789, 
+                    98, 
+                    1426, 
+                    939
+                  ], 
+                  "pressed": "not_pressed", 
+                  "scrollable-vertical": true
+                }, 
+                {
+                  "resource-id": "com.duckduckgo.mobile.android:id/footer_container", 
+                  "adapter-view": false, 
+                  "pointer": "636ab92", 
+                  "children": [
+                    {
+                      "scrollable-horizontal": false, 
+                      "draw": false, 
+                      "ancestors": [
+                        "java.lang.Object"
+                      ], 
+                      "clickable": false, 
+                      "pressed": "not_pressed", 
+                      "focusable": false, 
+                      "long-clickable": false, 
+                      "enabled": true, 
+                      "bounds": [
+                        789, 
+                        98, 
+                        789, 
+                        98
+                      ], 
+                      "visibility": "visible", 
+                      "content-desc": [
+                        null
+                      ], 
+                      "rel-bounds": [
+                        0, 
+                        0, 
+                        0, 
+                        0
+                      ], 
+                      "focused": false, 
+                      "selected": false, 
+                      "scrollable-vertical": false, 
+                      "adapter-view": false, 
+                      "abs-pos": true, 
+                      "pointer": "279b963", 
+                      "class": "android.view.View", 
+                      "visible-to-user": false
+                    }, 
+                    {
+                      "text": "", 
+                      "resource-id": "com.duckduckgo.mobile.android:id/footer_button", 
+                      "adapter-view": false, 
+                      "pointer": "9e24960", 
+                      "scrollable-horizontal": false, 
+                      "ancestors": [
+                        "android.widget.Button", 
+                        "android.widget.TextView", 
+                        "android.view.View", 
+                        "java.lang.Object"
+                      ], 
+                      "selected": false, 
+                      "content-desc": [
+                        null
+                      ], 
+                      "rel-bounds": [
+                        0, 
+                        0, 
+                        0, 
+                        0
+                      ], 
+                      "draw": false, 
+                      "focusable": true, 
+                      "long-clickable": false, 
+                      "visibility": "visible", 
+                      "focused": false, 
+                      "clickable": true, 
+                      "abs-pos": true, 
+                      "font-family": "sans-serif", 
+                      "class": "android.support.v7.widget.AppCompatButton", 
+                      "visible-to-user": false, 
+                      "package": "com.duckduckgo.mobile.android", 
+                      "enabled": true, 
+                      "bounds": [
+                        789, 
+                        98, 
+                        789, 
+                        98
+                      ], 
+                      "pressed": "not_pressed", 
+                      "scrollable-vertical": false
+                    }
+                  ], 
+                  "scrollable-horizontal": false, 
+                  "ancestors": [
+                    "android.view.ViewGroup", 
+                    "android.view.View", 
+                    "java.lang.Object"
+                  ], 
+                  "selected": false, 
+                  "content-desc": [
+                    null
+                  ], 
+                  "rel-bounds": [
+                    0, 
+                    0, 
+                    0, 
+                    0
+                  ], 
+                  "draw": true, 
+                  "focusable": false, 
+                  "long-clickable": false, 
+                  "visibility": "gone", 
+                  "focused": false, 
+                  "clickable": false, 
+                  "abs-pos": true, 
+                  "class": "android.widget.LinearLayout", 
+                  "visible-to-user": false, 
+                  "package": "com.duckduckgo.mobile.android", 
+                  "enabled": true, 
+                  "bounds": [
+                    789, 
+                    98, 
+                    789, 
+                    98
+                  ], 
+                  "pressed": "not_pressed", 
+                  "scrollable-vertical": false
+                }, 
+                {
+                  "resource-id": "com.duckduckgo.mobile.android:id/footer_container_2", 
+                  "adapter-view": false, 
+                  "pointer": "7f4ae19", 
+                  "children": [
+                    {
+                      "scrollable-horizontal": false, 
+                      "draw": false, 
+                      "ancestors": [
+                        "java.lang.Object"
+                      ], 
+                      "clickable": false, 
+                      "pressed": "not_pressed", 
+                      "focusable": false, 
+                      "long-clickable": false, 
+                      "enabled": true, 
+                      "bounds": [
+                        789, 
+                        98, 
+                        789, 
+                        98
+                      ], 
+                      "visibility": "visible", 
+                      "content-desc": [
+                        null
+                      ], 
+                      "rel-bounds": [
+                        0, 
+                        0, 
+                        0, 
+                        0
+                      ], 
+                      "focused": false, 
+                      "selected": false, 
+                      "scrollable-vertical": false, 
+                      "adapter-view": false, 
+                      "abs-pos": true, 
+                      "pointer": "8feede", 
+                      "class": "android.view.View", 
+                      "visible-to-user": false
+                    }, 
+                    {
+                      "resource-id": "com.duckduckgo.mobile.android:id/footer_listview", 
+                      "adapter-view": true, 
+                      "pointer": "5c488bf", 
+                      "scrollable-horizontal": false, 
+                      "ancestors": [
+                        "android.widget.AbsListView", 
+                        "android.widget.AdapterView", 
+                        "android.view.ViewGroup", 
+                        "android.view.View", 
+                        "java.lang.Object"
+                      ], 
+                      "selected": false, 
+                      "content-desc": [
+                        null
+                      ], 
+                      "rel-bounds": [
+                        0, 
+                        0, 
+                        0, 
+                        0
+                      ], 
+                      "draw": false, 
+                      "focusable": false, 
+                      "long-clickable": false, 
+                      "visibility": "visible", 
+                      "focused": false, 
+                      "clickable": true, 
+                      "abs-pos": true, 
+                      "class": "android.widget.ListView", 
+                      "visible-to-user": false, 
+                      "package": "com.duckduckgo.mobile.android", 
+                      "enabled": true, 
+                      "bounds": [
+                        789, 
+                        98, 
+                        789, 
+                        98
+                      ], 
+                      "pressed": "not_pressed", 
+                      "scrollable-vertical": false
+                    }
+                  ], 
+                  "scrollable-horizontal": false, 
+                  "ancestors": [
+                    "android.view.ViewGroup", 
+                    "android.view.View", 
+                    "java.lang.Object"
+                  ], 
+                  "selected": false, 
+                  "content-desc": [
+                    null
+                  ], 
+                  "rel-bounds": [
+                    0, 
+                    0, 
+                    0, 
+                    0
+                  ], 
+                  "draw": true, 
+                  "focusable": false, 
+                  "long-clickable": false, 
+                  "visibility": "gone", 
+                  "focused": false, 
+                  "clickable": false, 
+                  "abs-pos": true, 
+                  "class": "android.widget.LinearLayout", 
+                  "visible-to-user": false, 
+                  "package": "com.duckduckgo.mobile.android", 
+                  "enabled": true, 
+                  "bounds": [
+                    789, 
+                    98, 
+                    789, 
+                    98
+                  ], 
+                  "pressed": "not_pressed", 
+                  "scrollable-vertical": false
+                }
+              ], 
+              "adapter-view": false, 
+              "abs-pos": true, 
+              "pointer": "1c037eb", 
+              "class": "android.widget.LinearLayout", 
+              "visible-to-user": true
+            }
+          ], 
+          "adapter-view": false, 
+          "abs-pos": true, 
+          "pointer": "3d0c665", 
+          "class": "android.widget.PopupWindow$PopupBackgroundView", 
+          "visible-to-user": true
+        }
+      ], 
+      "adapter-view": false, 
+      "abs-pos": true, 
+      "pointer": "8f1a35c", 
+      "class": "android.widget.PopupWindow$PopupDecorView", 
+      "visible-to-user": true
+    }, 
+    "added_fragments": [], 
+    "active_fragments": []
+  }, 
+  "is_keyboard_deployed": false, 
+  "request_id": "4971"
+}

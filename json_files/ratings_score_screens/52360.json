@@ -1,0 +1,2750 @@
+{
+  "activity_name": "com.duolingo/com.duolingo.app.LessonActivity", 
+  "activity": {
+    "root": {
+      "scrollable-horizontal": false, 
+      "draw": true, 
+      "ancestors": [
+        "android.widget.FrameLayout", 
+        "android.view.ViewGroup", 
+        "android.view.View", 
+        "java.lang.Object"
+      ], 
+      "clickable": false, 
+      "pressed": "not_pressed", 
+      "focusable": false, 
+      "long-clickable": false, 
+      "enabled": true, 
+      "bounds": [
+        0, 
+        0, 
+        1440, 
+        2560
+      ], 
+      "visibility": "visible", 
+      "content-desc": [
+        null
+      ], 
+      "rel-bounds": [
+        0, 
+        0, 
+        1440, 
+        2560
+      ], 
+      "focused": false, 
+      "selected": false, 
+      "scrollable-vertical": false, 
+      "children": [
+        {
+          "scrollable-horizontal": false, 
+          "draw": true, 
+          "ancestors": [
+            "android.view.ViewGroup", 
+            "android.view.View", 
+            "java.lang.Object"
+          ], 
+          "clickable": false, 
+          "pressed": "not_pressed", 
+          "focusable": false, 
+          "long-clickable": false, 
+          "enabled": true, 
+          "bounds": [
+            0, 
+            0, 
+            1440, 
+            2392
+          ], 
+          "visibility": "visible", 
+          "content-desc": [
+            null
+          ], 
+          "rel-bounds": [
+            0, 
+            0, 
+            1440, 
+            2392
+          ], 
+          "focused": false, 
+          "selected": false, 
+          "scrollable-vertical": false, 
+          "children": [
+            {
+              "resource-id": "android:id/action_mode_bar_stub", 
+              "adapter-view": false, 
+              "pointer": "51f20f0", 
+              "scrollable-horizontal": false, 
+              "ancestors": [
+                "android.view.View", 
+                "java.lang.Object"
+              ], 
+              "selected": false, 
+              "content-desc": [
+                null
+              ], 
+              "rel-bounds": [
+                0, 
+                0, 
+                0, 
+                0
+              ], 
+              "draw": true, 
+              "focusable": false, 
+              "long-clickable": false, 
+              "visibility": "gone", 
+              "focused": false, 
+              "clickable": false, 
+              "abs-pos": true, 
+              "class": "android.view.ViewStub", 
+              "visible-to-user": false, 
+              "package": "android", 
+              "enabled": true, 
+              "bounds": [
+                0, 
+                0, 
+                0, 
+                0
+              ], 
+              "pressed": "not_pressed", 
+              "scrollable-vertical": false
+            }, 
+            {
+              "scrollable-horizontal": false, 
+              "draw": true, 
+              "ancestors": [
+                "android.view.ViewGroup", 
+                "android.view.View", 
+                "java.lang.Object"
+              ], 
+              "clickable": false, 
+              "pressed": "not_pressed", 
+              "focusable": false, 
+              "long-clickable": false, 
+              "enabled": true, 
+              "bounds": [
+                0, 
+                84, 
+                1440, 
+                2392
+              ], 
+              "visibility": "visible", 
+              "content-desc": [
+                null
+              ], 
+              "rel-bounds": [
+                0, 
+                84, 
+                1440, 
+                2392
+              ], 
+              "focused": false, 
+              "selected": false, 
+              "scrollable-vertical": false, 
+              "children": [
+                {
+                  "resource-id": "com.duolingo:id/action_bar_root", 
+                  "adapter-view": false, 
+                  "pointer": "f50f8ee", 
+                  "children": [
+                    {
+                      "resource-id": "com.duolingo:id/action_mode_bar_stub", 
+                      "adapter-view": false, 
+                      "pointer": "766b18f", 
+                      "scrollable-horizontal": false, 
+                      "ancestors": [
+                        "android.view.View", 
+                        "java.lang.Object"
+                      ], 
+                      "selected": false, 
+                      "content-desc": [
+                        null
+                      ], 
+                      "rel-bounds": [
+                        0, 
+                        0, 
+                        0, 
+                        0
+                      ], 
+                      "draw": true, 
+                      "focusable": false, 
+                      "long-clickable": false, 
+                      "visibility": "gone", 
+                      "focused": false, 
+                      "clickable": false, 
+                      "abs-pos": true, 
+                      "class": "android.support.v7.widget.ViewStubCompat", 
+                      "visible-to-user": false, 
+                      "package": "com.duolingo", 
+                      "enabled": true, 
+                      "bounds": [
+                        0, 
+                        84, 
+                        0, 
+                        84
+                      ], 
+                      "pressed": "not_pressed", 
+                      "scrollable-vertical": false
+                    }, 
+                    {
+                      "resource-id": "android:id/content", 
+                      "adapter-view": false, 
+                      "pointer": "46d5c1c", 
+                      "children": [
+                        {
+                          "resource-id": "com.duolingo:id/lesson_pager", 
+                          "adapter-view": false, 
+                          "pointer": "e48f025", 
+                          "children": [
+                            {
+                              "resource-id": "com.duolingo:id/lesson_root", 
+                              "adapter-view": false, 
+                              "pointer": "fd7b5fa", 
+                              "children": [
+                                {
+                                  "resource-id": "com.duolingo:id/session_container", 
+                                  "adapter-view": false, 
+                                  "pointer": "1a6d7ab", 
+                                  "children": [
+                                    {
+                                      "resource-id": "com.duolingo:id/header_container", 
+                                      "adapter-view": false, 
+                                      "pointer": "3021e08", 
+                                      "children": [
+                                        {
+                                          "resource-id": "com.duolingo:id/progress", 
+                                          "adapter-view": false, 
+                                          "pointer": "f3d69a1", 
+                                          "scrollable-horizontal": false, 
+                                          "ancestors": [
+                                            "android.view.View", 
+                                            "java.lang.Object"
+                                          ], 
+                                          "selected": false, 
+                                          "content-desc": [
+                                            null
+                                          ], 
+                                          "rel-bounds": [
+                                            112, 
+                                            0, 
+                                            1328, 
+                                            175
+                                          ], 
+                                          "draw": false, 
+                                          "focusable": false, 
+                                          "long-clickable": false, 
+                                          "visibility": "visible", 
+                                          "focused": false, 
+                                          "clickable": false, 
+                                          "abs-pos": true, 
+                                          "class": "com.duolingo.view.LessonStrengthBarThinView", 
+                                          "visible-to-user": true, 
+                                          "package": "com.duolingo", 
+                                          "enabled": true, 
+                                          "bounds": [
+                                            168, 
+                                            140, 
+                                            1384, 
+                                            315
+                                          ], 
+                                          "pressed": "not_pressed", 
+                                          "scrollable-vertical": false
+                                        }, 
+                                        {
+                                          "resource-id": "com.duolingo:id/quit_button", 
+                                          "adapter-view": false, 
+                                          "pointer": "6db37c6", 
+                                          "scrollable-horizontal": false, 
+                                          "ancestors": [
+                                            "android.widget.ImageView", 
+                                            "android.view.View", 
+                                            "java.lang.Object"
+                                          ], 
+                                          "selected": false, 
+                                          "content-desc": [
+                                            null
+                                          ], 
+                                          "rel-bounds": [
+                                            0, 
+                                            0, 
+                                            77, 
+                                            175
+                                          ], 
+                                          "draw": false, 
+                                          "focusable": true, 
+                                          "long-clickable": false, 
+                                          "visibility": "visible", 
+                                          "focused": false, 
+                                          "clickable": true, 
+                                          "abs-pos": true, 
+                                          "class": "com.duolingo.view.DuoSvgImageView", 
+                                          "visible-to-user": true, 
+                                          "package": "com.duolingo", 
+                                          "enabled": true, 
+                                          "bounds": [
+                                            56, 
+                                            140, 
+                                            133, 
+                                            315
+                                          ], 
+                                          "pressed": "not_pressed", 
+                                          "scrollable-vertical": false
+                                        }
+                                      ], 
+                                      "scrollable-horizontal": false, 
+                                      "ancestors": [
+                                        "android.view.ViewGroup", 
+                                        "android.view.View", 
+                                        "java.lang.Object"
+                                      ], 
+                                      "selected": false, 
+                                      "content-desc": [
+                                        null
+                                      ], 
+                                      "rel-bounds": [
+                                        56, 
+                                        0, 
+                                        1384, 
+                                        175
+                                      ], 
+                                      "draw": true, 
+                                      "focusable": false, 
+                                      "long-clickable": false, 
+                                      "visibility": "visible", 
+                                      "focused": false, 
+                                      "clickable": false, 
+                                      "abs-pos": true, 
+                                      "class": "android.widget.RelativeLayout", 
+                                      "visible-to-user": true, 
+                                      "package": "com.duolingo", 
+                                      "enabled": true, 
+                                      "bounds": [
+                                        56, 
+                                        140, 
+                                        1384, 
+                                        315
+                                      ], 
+                                      "pressed": "not_pressed", 
+                                      "scrollable-vertical": false
+                                    }, 
+                                    {
+                                      "resource-id": "com.duolingo:id/progress_spacer_below", 
+                                      "adapter-view": false, 
+                                      "pointer": "f794387", 
+                                      "scrollable-horizontal": false, 
+                                      "ancestors": [
+                                        "java.lang.Object"
+                                      ], 
+                                      "selected": false, 
+                                      "content-desc": [
+                                        null
+                                      ], 
+                                      "rel-bounds": [
+                                        56, 
+                                        141, 
+                                        1384, 
+                                        236
+                                      ], 
+                                      "draw": false, 
+                                      "focusable": false, 
+                                      "long-clickable": false, 
+                                      "visibility": "visible", 
+                                      "focused": false, 
+                                      "clickable": false, 
+                                      "abs-pos": true, 
+                                      "class": "android.view.View", 
+                                      "visible-to-user": true, 
+                                      "package": "com.duolingo", 
+                                      "enabled": true, 
+                                      "bounds": [
+                                        56, 
+                                        281, 
+                                        1384, 
+                                        376
+                                      ], 
+                                      "pressed": "not_pressed", 
+                                      "scrollable-vertical": false
+                                    }, 
+                                    {
+                                      "resource-id": "com.duolingo:id/element_container", 
+                                      "adapter-view": false, 
+                                      "pointer": "a9f12b4", 
+                                      "children": [
+                                        {
+                                          "resource-id": "com.duolingo:id/challenge_select", 
+                                          "adapter-view": false, 
+                                          "pointer": "8055734", 
+                                          "children": [
+                                            {
+                                              "text": "Which of these is \u201cthe boy\u201d?", 
+                                              "resource-id": "com.duolingo:id/title", 
+                                              "adapter-view": false, 
+                                              "pointer": "110295d", 
+                                              "scrollable-horizontal": false, 
+                                              "ancestors": [
+                                                "com.duolingo.typeface.widget.DuoTextView", 
+                                                "android.widget.TextView", 
+                                                "android.view.View", 
+                                                "java.lang.Object"
+                                              ], 
+                                              "selected": false, 
+                                              "content-desc": [
+                                                null
+                                              ], 
+                                              "rel-bounds": [
+                                                0, 
+                                                0, 
+                                                1328, 
+                                                95
+                                              ], 
+                                              "draw": false, 
+                                              "focusable": false, 
+                                              "long-clickable": false, 
+                                              "visibility": "visible", 
+                                              "focused": false, 
+                                              "clickable": false, 
+                                              "abs-pos": true, 
+                                              "font-family": "default", 
+                                              "class": "com.duolingo.tools.AutoScaleTextView", 
+                                              "visible-to-user": true, 
+                                              "package": "com.duolingo", 
+                                              "enabled": true, 
+                                              "bounds": [
+                                                56, 
+                                                376, 
+                                                1384, 
+                                                471
+                                              ], 
+                                              "pressed": "not_pressed", 
+                                              "scrollable-vertical": false
+                                            }, 
+                                            {
+                                              "resource-id": "com.duolingo:id/title_spacer", 
+                                              "adapter-view": false, 
+                                              "pointer": "b6a22d2", 
+                                              "scrollable-horizontal": false, 
+                                              "ancestors": [
+                                                "java.lang.Object"
+                                              ], 
+                                              "selected": false, 
+                                              "content-desc": [
+                                                null
+                                              ], 
+                                              "rel-bounds": [
+                                                0, 
+                                                95, 
+                                                1328, 
+                                                172
+                                              ], 
+                                              "draw": false, 
+                                              "focusable": false, 
+                                              "long-clickable": false, 
+                                              "visibility": "visible", 
+                                              "focused": false, 
+                                              "clickable": false, 
+                                              "abs-pos": true, 
+                                              "class": "android.view.View", 
+                                              "visible-to-user": true, 
+                                              "package": "com.duolingo", 
+                                              "enabled": true, 
+                                              "bounds": [
+                                                56, 
+                                                471, 
+                                                1384, 
+                                                548
+                                              ], 
+                                              "pressed": "not_pressed", 
+                                              "scrollable-vertical": false
+                                            }, 
+                                            {
+                                              "resource-id": "com.duolingo:id/selection_container", 
+                                              "adapter-view": false, 
+                                              "pointer": "338ffa3", 
+                                              "children": [
+                                                {
+                                                  "resource-id": "com.duolingo:id/tableRow1", 
+                                                  "adapter-view": false, 
+                                                  "pointer": "83ab2a0", 
+                                                  "children": [
+                                                    {
+                                                      "resource-id": "com.duolingo:id/image_container1", 
+                                                      "adapter-view": false, 
+                                                      "pointer": "b2afe59", 
+                                                      "children": [
+                                                        {
+                                                          "text": "la chatte", 
+                                                          "resource-id": "com.duolingo:id/radio1", 
+                                                          "adapter-view": false, 
+                                                          "pointer": "ca39a1e", 
+                                                          "scrollable-horizontal": false, 
+                                                          "ancestors": [
+                                                            "com.duolingo.typeface.widget.DuoRadioButton", 
+                                                            "android.widget.RadioButton", 
+                                                            "android.widget.CompoundButton", 
+                                                            "android.widget.Button", 
+                                                            "android.widget.TextView", 
+                                                            "android.view.View", 
+                                                            "java.lang.Object"
+                                                          ], 
+                                                          "selected": false, 
+                                                          "content-desc": [
+                                                            null
+                                                          ], 
+                                                          "rel-bounds": [
+                                                            18, 
+                                                            608, 
+                                                            628, 
+                                                            732
+                                                          ], 
+                                                          "draw": false, 
+                                                          "focusable": false, 
+                                                          "long-clickable": false, 
+                                                          "visibility": "visible", 
+                                                          "focused": false, 
+                                                          "clickable": false, 
+                                                          "abs-pos": true, 
+                                                          "font-family": "default", 
+                                                          "class": "com.duolingo.widget.AutoScaleRadioButton", 
+                                                          "visible-to-user": true, 
+                                                          "package": "com.duolingo", 
+                                                          "enabled": false, 
+                                                          "bounds": [
+                                                            74, 
+                                                            1156, 
+                                                            684, 
+                                                            1280
+                                                          ], 
+                                                          "pressed": "not_pressed", 
+                                                          "scrollable-vertical": false
+                                                        }, 
+                                                        {
+                                                          "resource-id": "com.duolingo:id/image1", 
+                                                          "adapter-view": false, 
+                                                          "pointer": "bd1f2ff", 
+                                                          "scrollable-horizontal": false, 
+                                                          "ancestors": [
+                                                            "android.widget.ImageView", 
+                                                            "android.view.View", 
+                                                            "java.lang.Object"
+                                                          ], 
+                                                          "selected": false, 
+                                                          "content-desc": [
+                                                            null
+                                                          ], 
+                                                          "rel-bounds": [
+                                                            36, 
+                                                            36, 
+                                                            610, 
+                                                            608
+                                                          ], 
+                                                          "draw": false, 
+                                                          "focusable": false, 
+                                                          "long-clickable": false, 
+                                                          "visibility": "visible", 
+                                                          "focused": false, 
+                                                          "clickable": false, 
+                                                          "abs-pos": true, 
+                                                          "class": "com.duolingo.view.DuoSvgImageView", 
+                                                          "visible-to-user": true, 
+                                                          "package": "com.duolingo", 
+                                                          "enabled": true, 
+                                                          "bounds": [
+                                                            92, 
+                                                            584, 
+                                                            666, 
+                                                            1156
+                                                          ], 
+                                                          "pressed": "not_pressed", 
+                                                          "scrollable-vertical": false
+                                                        }
+                                                      ], 
+                                                      "scrollable-horizontal": false, 
+                                                      "ancestors": [
+                                                        "android.view.ViewGroup", 
+                                                        "android.view.View", 
+                                                        "java.lang.Object"
+                                                      ], 
+                                                      "selected": false, 
+                                                      "content-desc": [
+                                                        null
+                                                      ], 
+                                                      "rel-bounds": [
+                                                        0, 
+                                                        0, 
+                                                        646, 
+                                                        750
+                                                      ], 
+                                                      "draw": true, 
+                                                      "focusable": false, 
+                                                      "long-clickable": false, 
+                                                      "visibility": "visible", 
+                                                      "focused": false, 
+                                                      "clickable": true, 
+                                                      "abs-pos": true, 
+                                                      "class": "android.widget.RelativeLayout", 
+                                                      "visible-to-user": true, 
+                                                      "package": "com.duolingo", 
+                                                      "enabled": false, 
+                                                      "bounds": [
+                                                        56, 
+                                                        548, 
+                                                        702, 
+                                                        1298
+                                                      ], 
+                                                      "pressed": "not_pressed", 
+                                                      "scrollable-vertical": false
+                                                    }, 
+                                                    {
+                                                      "resource-id": "com.duolingo:id/image_container2", 
+                                                      "adapter-view": false, 
+                                                      "pointer": "a858cc", 
+                                                      "children": [
+                                                        {
+                                                          "text": "une orange", 
+                                                          "resource-id": "com.duolingo:id/radio2", 
+                                                          "adapter-view": false, 
+                                                          "pointer": "c842715", 
+                                                          "scrollable-horizontal": false, 
+                                                          "ancestors": [
+                                                            "com.duolingo.typeface.widget.DuoRadioButton", 
+                                                            "android.widget.RadioButton", 
+                                                            "android.widget.CompoundButton", 
+                                                            "android.widget.Button", 
+                                                            "android.widget.TextView", 
+                                                            "android.view.View", 
+                                                            "java.lang.Object"
+                                                          ], 
+                                                          "selected": false, 
+                                                          "content-desc": [
+                                                            null
+                                                          ], 
+                                                          "rel-bounds": [
+                                                            18, 
+                                                            608, 
+                                                            629, 
+                                                            732
+                                                          ], 
+                                                          "draw": false, 
+                                                          "focusable": false, 
+                                                          "long-clickable": false, 
+                                                          "visibility": "visible", 
+                                                          "focused": false, 
+                                                          "clickable": false, 
+                                                          "abs-pos": true, 
+                                                          "font-family": "default", 
+                                                          "class": "com.duolingo.widget.AutoScaleRadioButton", 
+                                                          "visible-to-user": true, 
+                                                          "package": "com.duolingo", 
+                                                          "enabled": false, 
+                                                          "bounds": [
+                                                            755, 
+                                                            1156, 
+                                                            1366, 
+                                                            1280
+                                                          ], 
+                                                          "pressed": "not_pressed", 
+                                                          "scrollable-vertical": false
+                                                        }, 
+                                                        {
+                                                          "resource-id": "com.duolingo:id/image2", 
+                                                          "adapter-view": false, 
+                                                          "pointer": "76b3a2a", 
+                                                          "scrollable-horizontal": false, 
+                                                          "ancestors": [
+                                                            "android.widget.ImageView", 
+                                                            "android.view.View", 
+                                                            "java.lang.Object"
+                                                          ], 
+                                                          "selected": false, 
+                                                          "content-desc": [
+                                                            null
+                                                          ], 
+                                                          "rel-bounds": [
+                                                            36, 
+                                                            36, 
+                                                            611, 
+                                                            608
+                                                          ], 
+                                                          "draw": false, 
+                                                          "focusable": false, 
+                                                          "long-clickable": false, 
+                                                          "visibility": "visible", 
+                                                          "focused": false, 
+                                                          "clickable": false, 
+                                                          "abs-pos": true, 
+                                                          "class": "com.duolingo.view.DuoSvgImageView", 
+                                                          "visible-to-user": true, 
+                                                          "package": "com.duolingo", 
+                                                          "enabled": true, 
+                                                          "bounds": [
+                                                            773, 
+                                                            584, 
+                                                            1348, 
+                                                            1156
+                                                          ], 
+                                                          "pressed": "not_pressed", 
+                                                          "scrollable-vertical": false
+                                                        }
+                                                      ], 
+                                                      "scrollable-horizontal": false, 
+                                                      "ancestors": [
+                                                        "android.view.ViewGroup", 
+                                                        "android.view.View", 
+                                                        "java.lang.Object"
+                                                      ], 
+                                                      "selected": false, 
+                                                      "content-desc": [
+                                                        null
+                                                      ], 
+                                                      "rel-bounds": [
+                                                        681, 
+                                                        0, 
+                                                        1328, 
+                                                        750
+                                                      ], 
+                                                      "draw": true, 
+                                                      "focusable": false, 
+                                                      "long-clickable": false, 
+                                                      "visibility": "visible", 
+                                                      "focused": false, 
+                                                      "clickable": true, 
+                                                      "abs-pos": true, 
+                                                      "class": "android.widget.RelativeLayout", 
+                                                      "visible-to-user": true, 
+                                                      "package": "com.duolingo", 
+                                                      "enabled": false, 
+                                                      "bounds": [
+                                                        737, 
+                                                        548, 
+                                                        1384, 
+                                                        1298
+                                                      ], 
+                                                      "pressed": "not_pressed", 
+                                                      "scrollable-vertical": false
+                                                    }
+                                                  ], 
+                                                  "scrollable-horizontal": false, 
+                                                  "ancestors": [
+                                                    "android.widget.LinearLayout", 
+                                                    "android.view.ViewGroup", 
+                                                    "android.view.View", 
+                                                    "java.lang.Object"
+                                                  ], 
+                                                  "selected": false, 
+                                                  "content-desc": [
+                                                    null
+                                                  ], 
+                                                  "rel-bounds": [
+                                                    0, 
+                                                    0, 
+                                                    1328, 
+                                                    750
+                                                  ], 
+                                                  "draw": true, 
+                                                  "focusable": false, 
+                                                  "long-clickable": false, 
+                                                  "visibility": "visible", 
+                                                  "focused": false, 
+                                                  "clickable": false, 
+                                                  "abs-pos": true, 
+                                                  "class": "android.widget.TableRow", 
+                                                  "visible-to-user": true, 
+                                                  "package": "com.duolingo", 
+                                                  "enabled": true, 
+                                                  "bounds": [
+                                                    56, 
+                                                    548, 
+                                                    1384, 
+                                                    1298
+                                                  ], 
+                                                  "pressed": "not_pressed", 
+                                                  "scrollable-vertical": false
+                                                }, 
+                                                {
+                                                  "resource-id": "com.duolingo:id/tableRow2", 
+                                                  "adapter-view": false, 
+                                                  "pointer": "adcc01b", 
+                                                  "children": [
+                                                    {
+                                                      "resource-id": "com.duolingo:id/image_container3", 
+                                                      "adapter-view": false, 
+                                                      "pointer": "26835b8", 
+                                                      "children": [
+                                                        {
+                                                          "text": "la fille", 
+                                                          "resource-id": "com.duolingo:id/radio3", 
+                                                          "adapter-view": false, 
+                                                          "pointer": "b0d1f91", 
+                                                          "scrollable-horizontal": false, 
+                                                          "ancestors": [
+                                                            "com.duolingo.typeface.widget.DuoRadioButton", 
+                                                            "android.widget.RadioButton", 
+                                                            "android.widget.CompoundButton", 
+                                                            "android.widget.Button", 
+                                                            "android.widget.TextView", 
+                                                            "android.view.View", 
+                                                            "java.lang.Object"
+                                                          ], 
+                                                          "selected": false, 
+                                                          "content-desc": [
+                                                            null
+                                                          ], 
+                                                          "rel-bounds": [
+                                                            18, 
+                                                            608, 
+                                                            628, 
+                                                            732
+                                                          ], 
+                                                          "draw": false, 
+                                                          "focusable": false, 
+                                                          "long-clickable": false, 
+                                                          "visibility": "visible", 
+                                                          "focused": false, 
+                                                          "clickable": false, 
+                                                          "abs-pos": true, 
+                                                          "font-family": "default", 
+                                                          "class": "com.duolingo.widget.AutoScaleRadioButton", 
+                                                          "visible-to-user": true, 
+                                                          "package": "com.duolingo", 
+                                                          "enabled": false, 
+                                                          "bounds": [
+                                                            74, 
+                                                            1942, 
+                                                            684, 
+                                                            2066
+                                                          ], 
+                                                          "pressed": "not_pressed", 
+                                                          "scrollable-vertical": false
+                                                        }, 
+                                                        {
+                                                          "resource-id": "com.duolingo:id/image3", 
+                                                          "adapter-view": false, 
+                                                          "pointer": "f5acef6", 
+                                                          "scrollable-horizontal": false, 
+                                                          "ancestors": [
+                                                            "android.widget.ImageView", 
+                                                            "android.view.View", 
+                                                            "java.lang.Object"
+                                                          ], 
+                                                          "selected": false, 
+                                                          "content-desc": [
+                                                            null
+                                                          ], 
+                                                          "rel-bounds": [
+                                                            36, 
+                                                            36, 
+                                                            610, 
+                                                            608
+                                                          ], 
+                                                          "draw": false, 
+                                                          "focusable": false, 
+                                                          "long-clickable": false, 
+                                                          "visibility": "visible", 
+                                                          "focused": false, 
+                                                          "clickable": false, 
+                                                          "abs-pos": true, 
+                                                          "class": "com.duolingo.view.DuoSvgImageView", 
+                                                          "visible-to-user": true, 
+                                                          "package": "com.duolingo", 
+                                                          "enabled": true, 
+                                                          "bounds": [
+                                                            92, 
+                                                            1370, 
+                                                            666, 
+                                                            1942
+                                                          ], 
+                                                          "pressed": "not_pressed", 
+                                                          "scrollable-vertical": false
+                                                        }
+                                                      ], 
+                                                      "scrollable-horizontal": false, 
+                                                      "ancestors": [
+                                                        "android.view.ViewGroup", 
+                                                        "android.view.View", 
+                                                        "java.lang.Object"
+                                                      ], 
+                                                      "selected": false, 
+                                                      "content-desc": [
+                                                        null
+                                                      ], 
+                                                      "rel-bounds": [
+                                                        0, 
+                                                        0, 
+                                                        646, 
+                                                        750
+                                                      ], 
+                                                      "draw": true, 
+                                                      "focusable": false, 
+                                                      "long-clickable": false, 
+                                                      "visibility": "visible", 
+                                                      "focused": false, 
+                                                      "clickable": true, 
+                                                      "abs-pos": true, 
+                                                      "class": "android.widget.RelativeLayout", 
+                                                      "visible-to-user": true, 
+                                                      "package": "com.duolingo", 
+                                                      "enabled": false, 
+                                                      "bounds": [
+                                                        56, 
+                                                        1334, 
+                                                        702, 
+                                                        2084
+                                                      ], 
+                                                      "pressed": "not_pressed", 
+                                                      "scrollable-vertical": false
+                                                    }, 
+                                                    {
+                                                      "resource-id": "com.duolingo:id/image_container4", 
+                                                      "adapter-view": false, 
+                                                      "pointer": "cfd42f7", 
+                                                      "children": [
+                                                        {
+                                                          "text": "le gar\u00e7on", 
+                                                          "resource-id": "com.duolingo:id/radio4", 
+                                                          "adapter-view": false, 
+                                                          "pointer": "446f564", 
+                                                          "scrollable-horizontal": false, 
+                                                          "ancestors": [
+                                                            "com.duolingo.typeface.widget.DuoRadioButton", 
+                                                            "android.widget.RadioButton", 
+                                                            "android.widget.CompoundButton", 
+                                                            "android.widget.Button", 
+                                                            "android.widget.TextView", 
+                                                            "android.view.View", 
+                                                            "java.lang.Object"
+                                                          ], 
+                                                          "selected": true, 
+                                                          "content-desc": [
+                                                            null
+                                                          ], 
+                                                          "rel-bounds": [
+                                                            18, 
+                                                            608, 
+                                                            629, 
+                                                            732
+                                                          ], 
+                                                          "draw": false, 
+                                                          "focusable": false, 
+                                                          "long-clickable": false, 
+                                                          "visibility": "visible", 
+                                                          "focused": false, 
+                                                          "clickable": false, 
+                                                          "abs-pos": true, 
+                                                          "font-family": "default", 
+                                                          "class": "com.duolingo.widget.AutoScaleRadioButton", 
+                                                          "visible-to-user": true, 
+                                                          "package": "com.duolingo", 
+                                                          "enabled": false, 
+                                                          "bounds": [
+                                                            755, 
+                                                            1942, 
+                                                            1366, 
+                                                            2066
+                                                          ], 
+                                                          "pressed": "not_pressed", 
+                                                          "scrollable-vertical": false
+                                                        }, 
+                                                        {
+                                                          "resource-id": "com.duolingo:id/image4", 
+                                                          "adapter-view": false, 
+                                                          "pointer": "5323cd", 
+                                                          "scrollable-horizontal": false, 
+                                                          "ancestors": [
+                                                            "android.widget.ImageView", 
+                                                            "android.view.View", 
+                                                            "java.lang.Object"
+                                                          ], 
+                                                          "selected": true, 
+                                                          "content-desc": [
+                                                            null
+                                                          ], 
+                                                          "rel-bounds": [
+                                                            36, 
+                                                            36, 
+                                                            611, 
+                                                            608
+                                                          ], 
+                                                          "draw": false, 
+                                                          "focusable": false, 
+                                                          "long-clickable": false, 
+                                                          "visibility": "visible", 
+                                                          "focused": false, 
+                                                          "clickable": false, 
+                                                          "abs-pos": true, 
+                                                          "class": "com.duolingo.view.DuoSvgImageView", 
+                                                          "visible-to-user": true, 
+                                                          "package": "com.duolingo", 
+                                                          "enabled": true, 
+                                                          "bounds": [
+                                                            773, 
+                                                            1370, 
+                                                            1348, 
+                                                            1942
+                                                          ], 
+                                                          "pressed": "not_pressed", 
+                                                          "scrollable-vertical": false
+                                                        }
+                                                      ], 
+                                                      "scrollable-horizontal": false, 
+                                                      "ancestors": [
+                                                        "android.view.ViewGroup", 
+                                                        "android.view.View", 
+                                                        "java.lang.Object"
+                                                      ], 
+                                                      "selected": true, 
+                                                      "content-desc": [
+                                                        null
+                                                      ], 
+                                                      "rel-bounds": [
+                                                        681, 
+                                                        0, 
+                                                        1328, 
+                                                        750
+                                                      ], 
+                                                      "draw": true, 
+                                                      "focusable": false, 
+                                                      "long-clickable": false, 
+                                                      "visibility": "visible", 
+                                                      "focused": false, 
+                                                      "clickable": true, 
+                                                      "abs-pos": true, 
+                                                      "class": "android.widget.RelativeLayout", 
+                                                      "visible-to-user": true, 
+                                                      "package": "com.duolingo", 
+                                                      "enabled": false, 
+                                                      "bounds": [
+                                                        737, 
+                                                        1334, 
+                                                        1384, 
+                                                        2084
+                                                      ], 
+                                                      "pressed": "not_pressed", 
+                                                      "scrollable-vertical": false
+                                                    }
+                                                  ], 
+                                                  "scrollable-horizontal": false, 
+                                                  "ancestors": [
+                                                    "android.widget.LinearLayout", 
+                                                    "android.view.ViewGroup", 
+                                                    "android.view.View", 
+                                                    "java.lang.Object"
+                                                  ], 
+                                                  "selected": false, 
+                                                  "content-desc": [
+                                                    null
+                                                  ], 
+                                                  "rel-bounds": [
+                                                    0, 
+                                                    786, 
+                                                    1328, 
+                                                    1536
+                                                  ], 
+                                                  "draw": true, 
+                                                  "focusable": false, 
+                                                  "long-clickable": false, 
+                                                  "visibility": "visible", 
+                                                  "focused": false, 
+                                                  "clickable": false, 
+                                                  "abs-pos": true, 
+                                                  "class": "android.widget.TableRow", 
+                                                  "visible-to-user": true, 
+                                                  "package": "com.duolingo", 
+                                                  "enabled": true, 
+                                                  "bounds": [
+                                                    56, 
+                                                    1334, 
+                                                    1384, 
+                                                    2084
+                                                  ], 
+                                                  "pressed": "not_pressed", 
+                                                  "scrollable-vertical": false
+                                                }
+                                              ], 
+                                              "scrollable-horizontal": false, 
+                                              "ancestors": [
+                                                "android.widget.LinearLayout", 
+                                                "android.view.ViewGroup", 
+                                                "android.view.View", 
+                                                "java.lang.Object"
+                                              ], 
+                                              "selected": false, 
+                                              "content-desc": [
+                                                null
+                                              ], 
+                                              "rel-bounds": [
+                                                0, 
+                                                172, 
+                                                1328, 
+                                                1708
+                                              ], 
+                                              "draw": true, 
+                                              "focusable": false, 
+                                              "long-clickable": false, 
+                                              "visibility": "visible", 
+                                              "focused": false, 
+                                              "clickable": false, 
+                                              "abs-pos": true, 
+                                              "class": "android.widget.TableLayout", 
+                                              "visible-to-user": true, 
+                                              "package": "com.duolingo", 
+                                              "enabled": true, 
+                                              "bounds": [
+                                                56, 
+                                                548, 
+                                                1384, 
+                                                2084
+                                              ], 
+                                              "pressed": "not_pressed", 
+                                              "scrollable-vertical": false
+                                            }
+                                          ], 
+                                          "scrollable-horizontal": false, 
+                                          "ancestors": [
+                                            "android.widget.LinearLayout", 
+                                            "android.view.ViewGroup", 
+                                            "android.view.View", 
+                                            "java.lang.Object"
+                                          ], 
+                                          "selected": false, 
+                                          "content-desc": [
+                                            null
+                                          ], 
+                                          "rel-bounds": [
+                                            0, 
+                                            0, 
+                                            1328, 
+                                            1708
+                                          ], 
+                                          "draw": true, 
+                                          "focusable": false, 
+                                          "long-clickable": false, 
+                                          "visibility": "visible", 
+                                          "focused": false, 
+                                          "clickable": false, 
+                                          "abs-pos": true, 
+                                          "class": "com.duolingo.view.LessonLinearLayout", 
+                                          "visible-to-user": true, 
+                                          "package": "com.duolingo", 
+                                          "enabled": true, 
+                                          "bounds": [
+                                            56, 
+                                            376, 
+                                            1384, 
+                                            2084
+                                          ], 
+                                          "pressed": "not_pressed", 
+                                          "scrollable-vertical": false
+                                        }
+                                      ], 
+                                      "scrollable-horizontal": false, 
+                                      "ancestors": [
+                                        "android.view.ViewGroup", 
+                                        "android.view.View", 
+                                        "java.lang.Object"
+                                      ], 
+                                      "selected": false, 
+                                      "content-desc": [
+                                        null
+                                      ], 
+                                      "rel-bounds": [
+                                        56, 
+                                        236, 
+                                        1384, 
+                                        1944
+                                      ], 
+                                      "draw": true, 
+                                      "focusable": false, 
+                                      "long-clickable": false, 
+                                      "visibility": "visible", 
+                                      "focused": false, 
+                                      "clickable": false, 
+                                      "abs-pos": true, 
+                                      "class": "android.widget.FrameLayout", 
+                                      "visible-to-user": true, 
+                                      "package": "com.duolingo", 
+                                      "enabled": true, 
+                                      "bounds": [
+                                        56, 
+                                        376, 
+                                        1384, 
+                                        2084
+                                      ], 
+                                      "pressed": "not_pressed", 
+                                      "scrollable-vertical": false
+                                    }, 
+                                    {
+                                      "resource-id": "com.duolingo:id/button_spacer", 
+                                      "adapter-view": false, 
+                                      "pointer": "be40913", 
+                                      "scrollable-horizontal": false, 
+                                      "ancestors": [
+                                        "java.lang.Object"
+                                      ], 
+                                      "selected": false, 
+                                      "content-desc": [
+                                        null
+                                      ], 
+                                      "rel-bounds": [
+                                        56, 
+                                        1944, 
+                                        1384, 
+                                        2040
+                                      ], 
+                                      "draw": false, 
+                                      "focusable": false, 
+                                      "long-clickable": false, 
+                                      "visibility": "visible", 
+                                      "focused": false, 
+                                      "clickable": false, 
+                                      "abs-pos": true, 
+                                      "class": "android.view.View", 
+                                      "visible-to-user": true, 
+                                      "package": "com.duolingo", 
+                                      "enabled": true, 
+                                      "bounds": [
+                                        56, 
+                                        2084, 
+                                        1384, 
+                                        2180
+                                      ], 
+                                      "pressed": "not_pressed", 
+                                      "scrollable-vertical": false
+                                    }, 
+                                    {
+                                      "resource-id": "com.duolingo:id/buttons_container", 
+                                      "adapter-view": false, 
+                                      "pointer": "28dd750", 
+                                      "children": [
+                                        {
+                                          "resource-id": "com.duolingo:id/submit_and_skip_container", 
+                                          "adapter-view": false, 
+                                          "pointer": "42f864e", 
+                                          "children": [
+                                            {
+                                              "text": "GRADING\u2026", 
+                                              "resource-id": "com.duolingo:id/submit_button", 
+                                              "adapter-view": false, 
+                                              "pointer": "b81187c", 
+                                              "scrollable-horizontal": false, 
+                                              "ancestors": [
+                                                "com.duolingo.typeface.widget.DuoTextView", 
+                                                "android.widget.TextView", 
+                                                "android.view.View", 
+                                                "java.lang.Object"
+                                              ], 
+                                              "selected": false, 
+                                              "content-desc": [
+                                                null
+                                              ], 
+                                              "rel-bounds": [
+                                                0, 
+                                                0, 
+                                                1328, 
+                                                156
+                                              ], 
+                                              "draw": false, 
+                                              "focusable": true, 
+                                              "long-clickable": false, 
+                                              "visibility": "visible", 
+                                              "focused": false, 
+                                              "clickable": true, 
+                                              "abs-pos": true, 
+                                              "font-family": "default", 
+                                              "class": "com.duolingo.typeface.widget.DuoSubmitButton", 
+                                              "visible-to-user": false, 
+                                              "package": "com.duolingo", 
+                                              "enabled": true, 
+                                              "bounds": [
+                                                56, 
+                                                2180, 
+                                                1384, 
+                                                2336
+                                              ], 
+                                              "pressed": "not_pressed", 
+                                              "scrollable-vertical": false
+                                            }
+                                          ], 
+                                          "scrollable-horizontal": false, 
+                                          "ancestors": [
+                                            "android.view.ViewGroup", 
+                                            "android.view.View", 
+                                            "java.lang.Object"
+                                          ], 
+                                          "selected": false, 
+                                          "content-desc": [
+                                            null
+                                          ], 
+                                          "rel-bounds": [
+                                            0, 
+                                            0, 
+                                            1328, 
+                                            156
+                                          ], 
+                                          "draw": true, 
+                                          "focusable": false, 
+                                          "long-clickable": false, 
+                                          "visibility": "invisible", 
+                                          "focused": false, 
+                                          "clickable": false, 
+                                          "abs-pos": true, 
+                                          "class": "android.widget.LinearLayout", 
+                                          "visible-to-user": false, 
+                                          "package": "com.duolingo", 
+                                          "enabled": true, 
+                                          "bounds": [
+                                            56, 
+                                            2180, 
+                                            1384, 
+                                            2336
+                                          ], 
+                                          "pressed": "not_pressed", 
+                                          "scrollable-vertical": false
+                                        }, 
+                                        {
+                                          "text": "CONTINUE", 
+                                          "resource-id": "com.duolingo:id/continue_button", 
+                                          "adapter-view": false, 
+                                          "pointer": "7556505", 
+                                          "scrollable-horizontal": false, 
+                                          "ancestors": [
+                                            "android.widget.TextView", 
+                                            "android.view.View", 
+                                            "java.lang.Object"
+                                          ], 
+                                          "selected": false, 
+                                          "content-desc": [
+                                            null
+                                          ], 
+                                          "rel-bounds": [
+                                            0, 
+                                            0, 
+                                            1328, 
+                                            156
+                                          ], 
+                                          "draw": false, 
+                                          "focusable": true, 
+                                          "long-clickable": false, 
+                                          "visibility": "visible", 
+                                          "focused": false, 
+                                          "clickable": true, 
+                                          "abs-pos": true, 
+                                          "font-family": "default", 
+                                          "class": "com.duolingo.typeface.widget.DuoTextView", 
+                                          "visible-to-user": true, 
+                                          "package": "com.duolingo", 
+                                          "enabled": true, 
+                                          "bounds": [
+                                            56, 
+                                            2180, 
+                                            1384, 
+                                            2336
+                                          ], 
+                                          "pressed": "not_pressed", 
+                                          "scrollable-vertical": false
+                                        }
+                                      ], 
+                                      "scrollable-horizontal": false, 
+                                      "ancestors": [
+                                        "android.view.ViewGroup", 
+                                        "android.view.View", 
+                                        "java.lang.Object"
+                                      ], 
+                                      "selected": false, 
+                                      "content-desc": [
+                                        null
+                                      ], 
+                                      "rel-bounds": [
+                                        56, 
+                                        2040, 
+                                        1384, 
+                                        2196
+                                      ], 
+                                      "draw": true, 
+                                      "focusable": false, 
+                                      "long-clickable": false, 
+                                      "visibility": "visible", 
+                                      "focused": false, 
+                                      "clickable": false, 
+                                      "abs-pos": true, 
+                                      "class": "android.widget.FrameLayout", 
+                                      "visible-to-user": true, 
+                                      "package": "com.duolingo", 
+                                      "enabled": true, 
+                                      "bounds": [
+                                        56, 
+                                        2180, 
+                                        1384, 
+                                        2336
+                                      ], 
+                                      "pressed": "not_pressed", 
+                                      "scrollable-vertical": false
+                                    }
+                                  ], 
+                                  "scrollable-horizontal": false, 
+                                  "ancestors": [
+                                    "android.view.ViewGroup", 
+                                    "android.view.View", 
+                                    "java.lang.Object"
+                                  ], 
+                                  "selected": false, 
+                                  "content-desc": [
+                                    null
+                                  ], 
+                                  "rel-bounds": [
+                                    0, 
+                                    56, 
+                                    1440, 
+                                    2252
+                                  ], 
+                                  "draw": true, 
+                                  "focusable": false, 
+                                  "long-clickable": false, 
+                                  "visibility": "visible", 
+                                  "focused": false, 
+                                  "clickable": false, 
+                                  "abs-pos": true, 
+                                  "class": "android.widget.LinearLayout", 
+                                  "visible-to-user": true, 
+                                  "package": "com.duolingo", 
+                                  "enabled": true, 
+                                  "bounds": [
+                                    0, 
+                                    140, 
+                                    1440, 
+                                    2336
+                                  ], 
+                                  "pressed": "not_pressed", 
+                                  "scrollable-vertical": false
+                                }
+                              ], 
+                              "scrollable-horizontal": false, 
+                              "ancestors": [
+                                "android.widget.FrameLayout", 
+                                "android.view.ViewGroup", 
+                                "android.view.View", 
+                                "java.lang.Object"
+                              ], 
+                              "selected": false, 
+                              "content-desc": [
+                                null
+                              ], 
+                              "rel-bounds": [
+                                0, 
+                                0, 
+                                1440, 
+                                2308
+                              ], 
+                              "draw": true, 
+                              "focusable": false, 
+                              "long-clickable": false, 
+                              "visibility": "visible", 
+                              "focused": false, 
+                              "clickable": false, 
+                              "abs-pos": true, 
+                              "class": "com.duolingo.view.DuoFrameLayout", 
+                              "visible-to-user": true, 
+                              "package": "com.duolingo", 
+                              "enabled": true, 
+                              "bounds": [
+                                0, 
+                                84, 
+                                1440, 
+                                2392
+                              ], 
+                              "pressed": "not_pressed", 
+                              "scrollable-vertical": false
+                            }, 
+                            {
+                              "resource-id": "com.duolingo:id/shadow", 
+                              "adapter-view": false, 
+                              "pointer": "bd1878b", 
+                              "children": [
+                                {
+                                  "resource-id": "com.duolingo:id/graded_view", 
+                                  "adapter-view": false, 
+                                  "pointer": "54068", 
+                                  "children": [
+                                    {
+                                      "scrollable-horizontal": false, 
+                                      "draw": true, 
+                                      "ancestors": [
+                                        "android.view.ViewGroup", 
+                                        "android.view.View", 
+                                        "java.lang.Object"
+                                      ], 
+                                      "clickable": false, 
+                                      "pressed": "not_pressed", 
+                                      "focusable": false, 
+                                      "long-clickable": false, 
+                                      "enabled": true, 
+                                      "bounds": [
+                                        56, 
+                                        1252, 
+                                        1328, 
+                                        1602
+                                      ], 
+                                      "visibility": "visible", 
+                                      "content-desc": [
+                                        null
+                                      ], 
+                                      "rel-bounds": [
+                                        56, 
+                                        14, 
+                                        1328, 
+                                        364
+                                      ], 
+                                      "focused": false, 
+                                      "selected": false, 
+                                      "scrollable-vertical": false, 
+                                      "children": [
+                                        {
+                                          "resource-id": "com.duolingo:id/text_container", 
+                                          "adapter-view": false, 
+                                          "pointer": "8cf1167", 
+                                          "children": [
+                                            {
+                                              "text": "", 
+                                              "resource-id": "com.duolingo:id/special_message", 
+                                              "adapter-view": false, 
+                                              "pointer": "2702fbd", 
+                                              "scrollable-horizontal": false, 
+                                              "ancestors": [
+                                                "android.widget.TextView", 
+                                                "android.view.View", 
+                                                "java.lang.Object"
+                                              ], 
+                                              "selected": false, 
+                                              "content-desc": [
+                                                null
+                                              ], 
+                                              "rel-bounds": [
+                                                0, 
+                                                0, 
+                                                0, 
+                                                0
+                                              ], 
+                                              "draw": false, 
+                                              "focusable": false, 
+                                              "long-clickable": false, 
+                                              "visibility": "gone", 
+                                              "focused": false, 
+                                              "clickable": false, 
+                                              "abs-pos": true, 
+                                              "font-family": "default", 
+                                              "class": "com.duolingo.typeface.widget.DuoTextView", 
+                                              "visible-to-user": false, 
+                                              "package": "com.duolingo", 
+                                              "enabled": true, 
+                                              "bounds": [
+                                                56, 
+                                                1361, 
+                                                56, 
+                                                1361
+                                              ], 
+                                              "pressed": "not_pressed", 
+                                              "scrollable-vertical": false
+                                            }, 
+                                            {
+                                              "text": "You are correct", 
+                                              "resource-id": "com.duolingo:id/correct_title", 
+                                              "adapter-view": false, 
+                                              "pointer": "17e19b2", 
+                                              "scrollable-horizontal": false, 
+                                              "ancestors": [
+                                                "android.widget.TextView", 
+                                                "android.view.View", 
+                                                "java.lang.Object"
+                                              ], 
+                                              "selected": false, 
+                                              "content-desc": [
+                                                null
+                                              ], 
+                                              "rel-bounds": [
+                                                0, 
+                                                18, 
+                                                588, 
+                                                113
+                                              ], 
+                                              "draw": false, 
+                                              "focusable": false, 
+                                              "long-clickable": false, 
+                                              "visibility": "visible", 
+                                              "focused": false, 
+                                              "clickable": false, 
+                                              "abs-pos": true, 
+                                              "font-family": "default", 
+                                              "class": "com.duolingo.typeface.widget.DuoTextView", 
+                                              "visible-to-user": true, 
+                                              "package": "com.duolingo", 
+                                              "enabled": true, 
+                                              "bounds": [
+                                                56, 
+                                                1379, 
+                                                644, 
+                                                1474
+                                              ], 
+                                              "pressed": "not_pressed", 
+                                              "scrollable-vertical": false
+                                            }, 
+                                            {
+                                              "text": "Translation:", 
+                                              "resource-id": "com.duolingo:id/almost_correct_title", 
+                                              "adapter-view": false, 
+                                              "pointer": "2adb480", 
+                                              "scrollable-horizontal": false, 
+                                              "ancestors": [
+                                                "android.widget.TextView", 
+                                                "android.view.View", 
+                                                "java.lang.Object"
+                                              ], 
+                                              "selected": false, 
+                                              "content-desc": [
+                                                null
+                                              ], 
+                                              "rel-bounds": [
+                                                0, 
+                                                0, 
+                                                0, 
+                                                0
+                                              ], 
+                                              "draw": false, 
+                                              "focusable": false, 
+                                              "long-clickable": false, 
+                                              "visibility": "gone", 
+                                              "focused": false, 
+                                              "clickable": false, 
+                                              "abs-pos": true, 
+                                              "font-family": "default", 
+                                              "class": "com.duolingo.typeface.widget.DuoTextView", 
+                                              "visible-to-user": false, 
+                                              "package": "com.duolingo", 
+                                              "enabled": true, 
+                                              "bounds": [
+                                                56, 
+                                                1361, 
+                                                56, 
+                                                1361
+                                              ], 
+                                              "pressed": "not_pressed", 
+                                              "scrollable-vertical": false
+                                            }, 
+                                            {
+                                              "text": "", 
+                                              "resource-id": "com.duolingo:id/almost_correct_subtitle", 
+                                              "adapter-view": false, 
+                                              "pointer": "bf50ab9", 
+                                              "scrollable-horizontal": false, 
+                                              "ancestors": [
+                                                "android.widget.TextView", 
+                                                "android.view.View", 
+                                                "java.lang.Object"
+                                              ], 
+                                              "selected": false, 
+                                              "content-desc": [
+                                                null
+                                              ], 
+                                              "rel-bounds": [
+                                                0, 
+                                                0, 
+                                                0, 
+                                                0
+                                              ], 
+                                              "draw": false, 
+                                              "focusable": false, 
+                                              "long-clickable": false, 
+                                              "visibility": "gone", 
+                                              "focused": false, 
+                                              "clickable": false, 
+                                              "abs-pos": true, 
+                                              "font-family": "default", 
+                                              "class": "com.duolingo.typeface.widget.DuoTextView", 
+                                              "visible-to-user": false, 
+                                              "package": "com.duolingo", 
+                                              "enabled": true, 
+                                              "bounds": [
+                                                56, 
+                                                1361, 
+                                                56, 
+                                                1361
+                                              ], 
+                                              "pressed": "not_pressed", 
+                                              "scrollable-vertical": false
+                                            }, 
+                                            {
+                                              "text": "Translation:", 
+                                              "resource-id": "com.duolingo:id/display_translation_title", 
+                                              "adapter-view": false, 
+                                              "pointer": "4b01efe", 
+                                              "scrollable-horizontal": false, 
+                                              "ancestors": [
+                                                "android.widget.TextView", 
+                                                "android.view.View", 
+                                                "java.lang.Object"
+                                              ], 
+                                              "selected": false, 
+                                              "content-desc": [
+                                                null
+                                              ], 
+                                              "rel-bounds": [
+                                                0, 
+                                                0, 
+                                                0, 
+                                                0
+                                              ], 
+                                              "draw": false, 
+                                              "focusable": false, 
+                                              "long-clickable": false, 
+                                              "visibility": "gone", 
+                                              "focused": false, 
+                                              "clickable": false, 
+                                              "abs-pos": true, 
+                                              "font-family": "default", 
+                                              "class": "com.duolingo.typeface.widget.DuoTextView", 
+                                              "visible-to-user": false, 
+                                              "package": "com.duolingo", 
+                                              "enabled": true, 
+                                              "bounds": [
+                                                56, 
+                                                1361, 
+                                                56, 
+                                                1361
+                                              ], 
+                                              "pressed": "not_pressed", 
+                                              "scrollable-vertical": false
+                                            }, 
+                                            {
+                                              "text": "", 
+                                              "resource-id": "com.duolingo:id/display_translation", 
+                                              "adapter-view": false, 
+                                              "pointer": "ee2c65f", 
+                                              "scrollable-horizontal": false, 
+                                              "ancestors": [
+                                                "android.widget.TextView", 
+                                                "android.view.View", 
+                                                "java.lang.Object"
+                                              ], 
+                                              "selected": false, 
+                                              "content-desc": [
+                                                null
+                                              ], 
+                                              "rel-bounds": [
+                                                0, 
+                                                0, 
+                                                0, 
+                                                0
+                                              ], 
+                                              "draw": false, 
+                                              "focusable": false, 
+                                              "long-clickable": false, 
+                                              "visibility": "gone", 
+                                              "focused": false, 
+                                              "clickable": false, 
+                                              "abs-pos": true, 
+                                              "font-family": "default", 
+                                              "class": "com.duolingo.typeface.widget.DuoTextView", 
+                                              "visible-to-user": false, 
+                                              "package": "com.duolingo", 
+                                              "enabled": true, 
+                                              "bounds": [
+                                                56, 
+                                                1361, 
+                                                56, 
+                                                1361
+                                              ], 
+                                              "pressed": "not_pressed", 
+                                              "scrollable-vertical": false
+                                            }, 
+                                            {
+                                              "text": "Oops, that's not correct.", 
+                                              "resource-id": "com.duolingo:id/incorrect_title", 
+                                              "adapter-view": false, 
+                                              "pointer": "b7998ac", 
+                                              "scrollable-horizontal": false, 
+                                              "ancestors": [
+                                                "android.widget.TextView", 
+                                                "android.view.View", 
+                                                "java.lang.Object"
+                                              ], 
+                                              "selected": false, 
+                                              "content-desc": [
+                                                null
+                                              ], 
+                                              "rel-bounds": [
+                                                0, 
+                                                0, 
+                                                0, 
+                                                0
+                                              ], 
+                                              "draw": false, 
+                                              "focusable": false, 
+                                              "long-clickable": false, 
+                                              "visibility": "gone", 
+                                              "focused": false, 
+                                              "clickable": false, 
+                                              "abs-pos": true, 
+                                              "font-family": "default", 
+                                              "class": "com.duolingo.typeface.widget.DuoTextView", 
+                                              "visible-to-user": false, 
+                                              "package": "com.duolingo", 
+                                              "enabled": true, 
+                                              "bounds": [
+                                                56, 
+                                                1361, 
+                                                56, 
+                                                1361
+                                              ], 
+                                              "pressed": "not_pressed", 
+                                              "scrollable-vertical": false
+                                            }, 
+                                            {
+                                              "text": "", 
+                                              "resource-id": "com.duolingo:id/skipped_title", 
+                                              "adapter-view": false, 
+                                              "pointer": "36b2d0a", 
+                                              "scrollable-horizontal": false, 
+                                              "ancestors": [
+                                                "android.widget.TextView", 
+                                                "android.view.View", 
+                                                "java.lang.Object"
+                                              ], 
+                                              "selected": false, 
+                                              "content-desc": [
+                                                null
+                                              ], 
+                                              "rel-bounds": [
+                                                0, 
+                                                0, 
+                                                0, 
+                                                0
+                                              ], 
+                                              "draw": false, 
+                                              "focusable": false, 
+                                              "long-clickable": false, 
+                                              "visibility": "gone", 
+                                              "focused": false, 
+                                              "clickable": false, 
+                                              "abs-pos": true, 
+                                              "font-family": "default", 
+                                              "class": "com.duolingo.typeface.widget.DuoTextView", 
+                                              "visible-to-user": false, 
+                                              "package": "com.duolingo", 
+                                              "enabled": true, 
+                                              "bounds": [
+                                                56, 
+                                                1361, 
+                                                56, 
+                                                1361
+                                              ], 
+                                              "pressed": "not_pressed", 
+                                              "scrollable-vertical": false
+                                            }, 
+                                            {
+                                              "text": "", 
+                                              "resource-id": "com.duolingo:id/blame_message", 
+                                              "adapter-view": false, 
+                                              "pointer": "c17697b", 
+                                              "scrollable-horizontal": false, 
+                                              "ancestors": [
+                                                "android.widget.TextView", 
+                                                "android.view.View", 
+                                                "java.lang.Object"
+                                              ], 
+                                              "selected": false, 
+                                              "content-desc": [
+                                                null
+                                              ], 
+                                              "rel-bounds": [
+                                                0, 
+                                                0, 
+                                                0, 
+                                                0
+                                              ], 
+                                              "draw": false, 
+                                              "focusable": false, 
+                                              "long-clickable": false, 
+                                              "visibility": "gone", 
+                                              "focused": false, 
+                                              "clickable": false, 
+                                              "abs-pos": true, 
+                                              "font-family": "default", 
+                                              "class": "com.duolingo.typeface.widget.DuoTextView", 
+                                              "visible-to-user": false, 
+                                              "package": "com.duolingo", 
+                                              "enabled": true, 
+                                              "bounds": [
+                                                56, 
+                                                1361, 
+                                                56, 
+                                                1361
+                                              ], 
+                                              "pressed": "not_pressed", 
+                                              "scrollable-vertical": false
+                                            }, 
+                                            {
+                                              "text": "", 
+                                              "resource-id": "com.duolingo:id/solution", 
+                                              "adapter-view": false, 
+                                              "pointer": "83d9398", 
+                                              "scrollable-horizontal": false, 
+                                              "ancestors": [
+                                                "android.widget.TextView", 
+                                                "android.view.View", 
+                                                "java.lang.Object"
+                                              ], 
+                                              "selected": false, 
+                                              "content-desc": [
+                                                null
+                                              ], 
+                                              "rel-bounds": [
+                                                0, 
+                                                0, 
+                                                0, 
+                                                0
+                                              ], 
+                                              "draw": false, 
+                                              "focusable": false, 
+                                              "long-clickable": false, 
+                                              "visibility": "gone", 
+                                              "focused": false, 
+                                              "clickable": false, 
+                                              "abs-pos": true, 
+                                              "font-family": "default", 
+                                              "class": "com.duolingo.typeface.widget.DuoTextView", 
+                                              "visible-to-user": false, 
+                                              "package": "com.duolingo", 
+                                              "enabled": true, 
+                                              "bounds": [
+                                                56, 
+                                                1361, 
+                                                56, 
+                                                1361
+                                              ], 
+                                              "pressed": "not_pressed", 
+                                              "scrollable-vertical": false
+                                            }, 
+                                            {
+                                              "text": "Translation:", 
+                                              "resource-id": "com.duolingo:id/incorrect_translation_title", 
+                                              "adapter-view": false, 
+                                              "pointer": "4c057f1", 
+                                              "scrollable-horizontal": false, 
+                                              "ancestors": [
+                                                "android.widget.TextView", 
+                                                "android.view.View", 
+                                                "java.lang.Object"
+                                              ], 
+                                              "selected": false, 
+                                              "content-desc": [
+                                                null
+                                              ], 
+                                              "rel-bounds": [
+                                                0, 
+                                                0, 
+                                                0, 
+                                                0
+                                              ], 
+                                              "draw": false, 
+                                              "focusable": false, 
+                                              "long-clickable": false, 
+                                              "visibility": "gone", 
+                                              "focused": false, 
+                                              "clickable": false, 
+                                              "abs-pos": true, 
+                                              "font-family": "default", 
+                                              "class": "com.duolingo.typeface.widget.DuoTextView", 
+                                              "visible-to-user": false, 
+                                              "package": "com.duolingo", 
+                                              "enabled": true, 
+                                              "bounds": [
+                                                56, 
+                                                1361, 
+                                                56, 
+                                                1361
+                                              ], 
+                                              "pressed": "not_pressed", 
+                                              "scrollable-vertical": false
+                                            }, 
+                                            {
+                                              "text": "", 
+                                              "resource-id": "com.duolingo:id/incorrect_translation", 
+                                              "adapter-view": false, 
+                                              "pointer": "6170fd6", 
+                                              "scrollable-horizontal": false, 
+                                              "ancestors": [
+                                                "android.widget.TextView", 
+                                                "android.view.View", 
+                                                "java.lang.Object"
+                                              ], 
+                                              "selected": false, 
+                                              "content-desc": [
+                                                null
+                                              ], 
+                                              "rel-bounds": [
+                                                0, 
+                                                0, 
+                                                0, 
+                                                0
+                                              ], 
+                                              "draw": false, 
+                                              "focusable": false, 
+                                              "long-clickable": false, 
+                                              "visibility": "gone", 
+                                              "focused": false, 
+                                              "clickable": false, 
+                                              "abs-pos": true, 
+                                              "font-family": "default", 
+                                              "class": "com.duolingo.typeface.widget.DuoTextView", 
+                                              "visible-to-user": false, 
+                                              "package": "com.duolingo", 
+                                              "enabled": true, 
+                                              "bounds": [
+                                                56, 
+                                                1361, 
+                                                56, 
+                                                1361
+                                              ], 
+                                              "pressed": "not_pressed", 
+                                              "scrollable-vertical": false
+                                            }
+                                          ], 
+                                          "scrollable-horizontal": false, 
+                                          "ancestors": [
+                                            "android.view.ViewGroup", 
+                                            "android.view.View", 
+                                            "java.lang.Object"
+                                          ], 
+                                          "selected": false, 
+                                          "content-desc": [
+                                            null
+                                          ], 
+                                          "rel-bounds": [
+                                            0, 
+                                            109, 
+                                            1055, 
+                                            240
+                                          ], 
+                                          "draw": true, 
+                                          "focusable": false, 
+                                          "long-clickable": false, 
+                                          "visibility": "visible", 
+                                          "focused": false, 
+                                          "clickable": false, 
+                                          "abs-pos": true, 
+                                          "class": "android.widget.LinearLayout", 
+                                          "visible-to-user": true, 
+                                          "package": "com.duolingo", 
+                                          "enabled": true, 
+                                          "bounds": [
+                                            56, 
+                                            1361, 
+                                            1111, 
+                                            1492
+                                          ], 
+                                          "pressed": "not_pressed", 
+                                          "scrollable-vertical": false
+                                        }, 
+                                        {
+                                          "resource-id": "com.duolingo:id/button_container", 
+                                          "adapter-view": false, 
+                                          "pointer": "4292257", 
+                                          "children": [
+                                            {
+                                              "resource-id": "com.duolingo:id/discuss_button", 
+                                              "adapter-view": false, 
+                                              "pointer": "4445144", 
+                                              "children": [
+                                                {
+                                                  "resource-id": "com.duolingo:id/discuss_incorrect", 
+                                                  "adapter-view": false, 
+                                                  "pointer": "71822d", 
+                                                  "scrollable-horizontal": false, 
+                                                  "ancestors": [
+                                                    "android.widget.ImageView", 
+                                                    "android.view.View", 
+                                                    "java.lang.Object"
+                                                  ], 
+                                                  "selected": false, 
+                                                  "content-desc": [
+                                                    null
+                                                  ], 
+                                                  "rel-bounds": [
+                                                    0, 
+                                                    0, 
+                                                    0, 
+                                                    0
+                                                  ], 
+                                                  "draw": false, 
+                                                  "focusable": false, 
+                                                  "long-clickable": false, 
+                                                  "visibility": "gone", 
+                                                  "focused": false, 
+                                                  "clickable": false, 
+                                                  "abs-pos": true, 
+                                                  "class": "com.duolingo.view.DuoSvgImageView", 
+                                                  "visible-to-user": false, 
+                                                  "package": "com.duolingo", 
+                                                  "enabled": true, 
+                                                  "bounds": [
+                                                    1111, 
+                                                    1346, 
+                                                    1111, 
+                                                    1346
+                                                  ], 
+                                                  "pressed": "not_pressed", 
+                                                  "scrollable-vertical": false
+                                                }, 
+                                                {
+                                                  "resource-id": "com.duolingo:id/discuss_correct", 
+                                                  "adapter-view": false, 
+                                                  "pointer": "1cc5362", 
+                                                  "scrollable-horizontal": false, 
+                                                  "ancestors": [
+                                                    "android.widget.ImageView", 
+                                                    "android.view.View", 
+                                                    "java.lang.Object"
+                                                  ], 
+                                                  "selected": false, 
+                                                  "content-desc": [
+                                                    null
+                                                  ], 
+                                                  "rel-bounds": [
+                                                    0, 
+                                                    0, 
+                                                    0, 
+                                                    0
+                                                  ], 
+                                                  "draw": false, 
+                                                  "focusable": false, 
+                                                  "long-clickable": false, 
+                                                  "visibility": "gone", 
+                                                  "focused": false, 
+                                                  "clickable": false, 
+                                                  "abs-pos": true, 
+                                                  "class": "com.duolingo.view.DuoSvgImageView", 
+                                                  "visible-to-user": false, 
+                                                  "package": "com.duolingo", 
+                                                  "enabled": true, 
+                                                  "bounds": [
+                                                    1111, 
+                                                    1346, 
+                                                    1111, 
+                                                    1346
+                                                  ], 
+                                                  "pressed": "not_pressed", 
+                                                  "scrollable-vertical": false
+                                                }, 
+                                                {
+                                                  "text": "", 
+                                                  "resource-id": "com.duolingo:id/num_comments", 
+                                                  "adapter-view": false, 
+                                                  "pointer": "5338cf3", 
+                                                  "scrollable-horizontal": false, 
+                                                  "ancestors": [
+                                                    "com.duolingo.typeface.widget.DuoTextView", 
+                                                    "android.widget.TextView", 
+                                                    "android.view.View", 
+                                                    "java.lang.Object"
+                                                  ], 
+                                                  "selected": false, 
+                                                  "content-desc": [
+                                                    null
+                                                  ], 
+                                                  "rel-bounds": [
+                                                    0, 
+                                                    0, 
+                                                    0, 
+                                                    0
+                                                  ], 
+                                                  "draw": false, 
+                                                  "focusable": false, 
+                                                  "long-clickable": false, 
+                                                  "visibility": "gone", 
+                                                  "focused": false, 
+                                                  "clickable": false, 
+                                                  "abs-pos": true, 
+                                                  "font-family": "default", 
+                                                  "class": "com.duolingo.tools.AutoScaleTextView", 
+                                                  "visible-to-user": false, 
+                                                  "package": "com.duolingo", 
+                                                  "enabled": true, 
+                                                  "bounds": [
+                                                    1111, 
+                                                    1346, 
+                                                    1111, 
+                                                    1346
+                                                  ], 
+                                                  "pressed": "not_pressed", 
+                                                  "scrollable-vertical": false
+                                                }
+                                              ], 
+                                              "scrollable-horizontal": false, 
+                                              "ancestors": [
+                                                "android.view.ViewGroup", 
+                                                "android.view.View", 
+                                                "java.lang.Object"
+                                              ], 
+                                              "selected": false, 
+                                              "content-desc": [
+                                                null
+                                              ], 
+                                              "rel-bounds": [
+                                                0, 
+                                                0, 
+                                                0, 
+                                                0
+                                              ], 
+                                              "draw": true, 
+                                              "focusable": true, 
+                                              "long-clickable": false, 
+                                              "visibility": "gone", 
+                                              "focused": false, 
+                                              "clickable": true, 
+                                              "abs-pos": true, 
+                                              "class": "android.widget.RelativeLayout", 
+                                              "visible-to-user": false, 
+                                              "package": "com.duolingo", 
+                                              "enabled": true, 
+                                              "bounds": [
+                                                1111, 
+                                                1346, 
+                                                1111, 
+                                                1346
+                                              ], 
+                                              "pressed": "not_pressed", 
+                                              "scrollable-vertical": false
+                                            }, 
+                                            {
+                                              "resource-id": "com.duolingo:id/report_incorrect", 
+                                              "adapter-view": false, 
+                                              "pointer": "2d73db0", 
+                                              "scrollable-horizontal": false, 
+                                              "ancestors": [
+                                                "android.widget.ImageView", 
+                                                "android.view.View", 
+                                                "java.lang.Object"
+                                              ], 
+                                              "selected": false, 
+                                              "content-desc": [
+                                                null
+                                              ], 
+                                              "rel-bounds": [
+                                                0, 
+                                                0, 
+                                                0, 
+                                                0
+                                              ], 
+                                              "draw": false, 
+                                              "focusable": false, 
+                                              "long-clickable": false, 
+                                              "visibility": "gone", 
+                                              "focused": false, 
+                                              "clickable": true, 
+                                              "abs-pos": true, 
+                                              "class": "com.duolingo.view.DuoSvgImageView", 
+                                              "visible-to-user": false, 
+                                              "package": "com.duolingo", 
+                                              "enabled": true, 
+                                              "bounds": [
+                                                1111, 
+                                                1346, 
+                                                1111, 
+                                                1346
+                                              ], 
+                                              "pressed": "not_pressed", 
+                                              "scrollable-vertical": false
+                                            }, 
+                                            {
+                                              "resource-id": "com.duolingo:id/report_correct", 
+                                              "adapter-view": false, 
+                                              "pointer": "911429", 
+                                              "scrollable-horizontal": false, 
+                                              "ancestors": [
+                                                "android.widget.ImageView", 
+                                                "android.view.View", 
+                                                "java.lang.Object"
+                                              ], 
+                                              "selected": false, 
+                                              "content-desc": [
+                                                null
+                                              ], 
+                                              "rel-bounds": [
+                                                28, 
+                                                0, 
+                                                189, 
+                                                161
+                                              ], 
+                                              "draw": false, 
+                                              "focusable": false, 
+                                              "long-clickable": false, 
+                                              "visibility": "visible", 
+                                              "focused": false, 
+                                              "clickable": true, 
+                                              "abs-pos": true, 
+                                              "class": "com.duolingo.view.DuoSvgImageView", 
+                                              "visible-to-user": true, 
+                                              "package": "com.duolingo", 
+                                              "enabled": true, 
+                                              "bounds": [
+                                                1139, 
+                                                1346, 
+                                                1300, 
+                                                1507
+                                              ], 
+                                              "pressed": "not_pressed", 
+                                              "scrollable-vertical": false
+                                            }
+                                          ], 
+                                          "scrollable-horizontal": false, 
+                                          "ancestors": [
+                                            "android.view.ViewGroup", 
+                                            "android.view.View", 
+                                            "java.lang.Object"
+                                          ], 
+                                          "selected": false, 
+                                          "content-desc": [
+                                            null
+                                          ], 
+                                          "rel-bounds": [
+                                            1055, 
+                                            94, 
+                                            1272, 
+                                            255
+                                          ], 
+                                          "draw": true, 
+                                          "focusable": false, 
+                                          "long-clickable": false, 
+                                          "visibility": "visible", 
+                                          "focused": false, 
+                                          "clickable": false, 
+                                          "abs-pos": true, 
+                                          "class": "android.widget.LinearLayout", 
+                                          "visible-to-user": true, 
+                                          "package": "com.duolingo", 
+                                          "enabled": true, 
+                                          "bounds": [
+                                            1111, 
+                                            1346, 
+                                            1328, 
+                                            1507
+                                          ], 
+                                          "pressed": "not_pressed", 
+                                          "scrollable-vertical": false
+                                        }
+                                      ], 
+                                      "adapter-view": false, 
+                                      "abs-pos": true, 
+                                      "pointer": "921126", 
+                                      "class": "android.widget.LinearLayout", 
+                                      "visible-to-user": true
+                                    }
+                                  ], 
+                                  "scrollable-horizontal": false, 
+                                  "ancestors": [
+                                    "com.duolingo.view.DuoRelativeLayout", 
+                                    "android.widget.RelativeLayout", 
+                                    "android.view.ViewGroup", 
+                                    "android.view.View", 
+                                    "java.lang.Object"
+                                  ], 
+                                  "selected": false, 
+                                  "content-desc": [
+                                    null
+                                  ], 
+                                  "rel-bounds": [
+                                    0, 
+                                    1154, 
+                                    1440, 
+                                    1546
+                                  ], 
+                                  "draw": true, 
+                                  "focusable": false, 
+                                  "long-clickable": false, 
+                                  "visibility": "visible", 
+                                  "focused": false, 
+                                  "clickable": false, 
+                                  "abs-pos": true, 
+                                  "class": "com.duolingo.view.GradedView", 
+                                  "visible-to-user": true, 
+                                  "package": "com.duolingo", 
+                                  "enabled": true, 
+                                  "bounds": [
+                                    0, 
+                                    1238, 
+                                    1440, 
+                                    1630
+                                  ], 
+                                  "pressed": "not_pressed", 
+                                  "scrollable-vertical": false
+                                }
+                              ], 
+                              "scrollable-horizontal": false, 
+                              "ancestors": [
+                                "com.duolingo.view.DuoFrameLayout", 
+                                "android.widget.FrameLayout", 
+                                "android.view.ViewGroup", 
+                                "android.view.View", 
+                                "java.lang.Object"
+                              ], 
+                              "selected": false, 
+                              "content-desc": [
+                                null
+                              ], 
+                              "rel-bounds": [
+                                0, 
+                                0, 
+                                1440, 
+                                2308
+                              ], 
+                              "draw": true, 
+                              "focusable": false, 
+                              "long-clickable": false, 
+                              "visibility": "visible", 
+                              "focused": false, 
+                              "clickable": false, 
+                              "abs-pos": true, 
+                              "class": "com.duolingo.view.DragContainer", 
+                              "visible-to-user": true, 
+                              "package": "com.duolingo", 
+                              "enabled": true, 
+                              "bounds": [
+                                0, 
+                                84, 
+                                1440, 
+                                2392
+                              ], 
+                              "pressed": "not_pressed", 
+                              "scrollable-vertical": false
+                            }, 
+                            {
+                              "resource-id": "com.duolingo:id/session_end_container", 
+                              "adapter-view": false, 
+                              "pointer": "2a043ae", 
+                              "scrollable-horizontal": false, 
+                              "ancestors": [
+                                "android.view.ViewGroup", 
+                                "android.view.View", 
+                                "java.lang.Object"
+                              ], 
+                              "selected": false, 
+                              "content-desc": [
+                                null
+                              ], 
+                              "rel-bounds": [
+                                0, 
+                                0, 
+                                0, 
+                                0
+                              ], 
+                              "draw": true, 
+                              "focusable": false, 
+                              "long-clickable": false, 
+                              "visibility": "gone", 
+                              "focused": false, 
+                              "clickable": false, 
+                              "abs-pos": true, 
+                              "class": "android.widget.FrameLayout", 
+                              "visible-to-user": false, 
+                              "package": "com.duolingo", 
+                              "enabled": true, 
+                              "bounds": [
+                                0, 
+                                84, 
+                                0, 
+                                84
+                              ], 
+                              "pressed": "not_pressed", 
+                              "scrollable-vertical": false
+                            }, 
+                            {
+                              "resource-id": "com.duolingo:id/lesson_image_transition", 
+                              "adapter-view": false, 
+                              "pointer": "970054f", 
+                              "scrollable-horizontal": false, 
+                              "ancestors": [
+                                "android.widget.ImageView", 
+                                "android.view.View", 
+                                "java.lang.Object"
+                              ], 
+                              "selected": false, 
+                              "content-desc": [
+                                null
+                              ], 
+                              "rel-bounds": [
+                                0, 
+                                0, 
+                                1440, 
+                                2308
+                              ], 
+                              "draw": false, 
+                              "focusable": false, 
+                              "long-clickable": false, 
+                              "visibility": "gone", 
+                              "focused": false, 
+                              "clickable": false, 
+                              "abs-pos": true, 
+                              "class": "android.support.v7.widget.v", 
+                              "visible-to-user": false, 
+                              "package": "com.duolingo", 
+                              "enabled": true, 
+                              "bounds": [
+                                0, 
+                                84, 
+                                189, 
+                                2392
+                              ], 
+                              "pressed": "not_pressed", 
+                              "scrollable-vertical": false
+                            }, 
+                            {
+                              "resource-id": "com.duolingo:id/loading_status", 
+                              "adapter-view": false, 
+                              "pointer": "ffdc9e5", 
+                              "scrollable-horizontal": false, 
+                              "ancestors": [
+                                "android.view.View", 
+                                "java.lang.Object"
+                              ], 
+                              "selected": false, 
+                              "content-desc": [
+                                null
+                              ], 
+                              "rel-bounds": [
+                                587, 
+                                1021, 
+                                853, 
+                                1287
+                              ], 
+                              "draw": false, 
+                              "focusable": false, 
+                              "long-clickable": false, 
+                              "visibility": "gone", 
+                              "focused": false, 
+                              "clickable": false, 
+                              "abs-pos": true, 
+                              "class": "android.widget.ProgressBar", 
+                              "visible-to-user": false, 
+                              "package": "com.duolingo", 
+                              "enabled": true, 
+                              "bounds": [
+                                587, 
+                                1105, 
+                                853, 
+                                1371
+                              ], 
+                              "pressed": "not_pressed", 
+                              "scrollable-vertical": false
+                            }
+                          ], 
+                          "scrollable-horizontal": false, 
+                          "ancestors": [
+                            "android.view.ViewGroup", 
+                            "android.view.View", 
+                            "java.lang.Object"
+                          ], 
+                          "selected": false, 
+                          "content-desc": [
+                            null
+                          ], 
+                          "rel-bounds": [
+                            0, 
+                            0, 
+                            1440, 
+                            2308
+                          ], 
+                          "draw": true, 
+                          "focusable": false, 
+                          "long-clickable": false, 
+                          "visibility": "visible", 
+                          "focused": false, 
+                          "clickable": false, 
+                          "abs-pos": true, 
+                          "class": "android.widget.FrameLayout", 
+                          "visible-to-user": true, 
+                          "package": "com.duolingo", 
+                          "enabled": true, 
+                          "bounds": [
+                            0, 
+                            84, 
+                            1440, 
+                            2392
+                          ], 
+                          "pressed": "not_pressed", 
+                          "scrollable-vertical": false
+                        }
+                      ], 
+                      "scrollable-horizontal": false, 
+                      "ancestors": [
+                        "android.widget.FrameLayout", 
+                        "android.view.ViewGroup", 
+                        "android.view.View", 
+                        "java.lang.Object"
+                      ], 
+                      "selected": false, 
+                      "content-desc": [
+                        null
+                      ], 
+                      "rel-bounds": [
+                        0, 
+                        0, 
+                        1440, 
+                        2308
+                      ], 
+                      "draw": true, 
+                      "focusable": false, 
+                      "long-clickable": false, 
+                      "visibility": "visible", 
+                      "focused": false, 
+                      "clickable": false, 
+                      "abs-pos": true, 
+                      "class": "android.support.v7.widget.ContentFrameLayout", 
+                      "visible-to-user": true, 
+                      "package": "android", 
+                      "enabled": true, 
+                      "bounds": [
+                        0, 
+                        84, 
+                        1440, 
+                        2392
+                      ], 
+                      "pressed": "not_pressed", 
+                      "scrollable-vertical": false
+                    }
+                  ], 
+                  "scrollable-horizontal": false, 
+                  "ancestors": [
+                    "android.widget.LinearLayout", 
+                    "android.view.ViewGroup", 
+                    "android.view.View", 
+                    "java.lang.Object"
+                  ], 
+                  "selected": false, 
+                  "content-desc": [
+                    null
+                  ], 
+                  "rel-bounds": [
+                    0, 
+                    0, 
+                    1440, 
+                    2308
+                  ], 
+                  "draw": true, 
+                  "focusable": false, 
+                  "long-clickable": false, 
+                  "visibility": "visible", 
+                  "focused": false, 
+                  "clickable": false, 
+                  "abs-pos": true, 
+                  "class": "android.support.v7.widget.FitWindowsLinearLayout", 
+                  "visible-to-user": true, 
+                  "package": "com.duolingo", 
+                  "enabled": true, 
+                  "bounds": [
+                    0, 
+                    84, 
+                    1440, 
+                    2392
+                  ], 
+                  "pressed": "not_pressed", 
+                  "scrollable-vertical": false
+                }
+              ], 
+              "adapter-view": false, 
+              "abs-pos": true, 
+              "pointer": "3ea5669", 
+              "class": "android.widget.FrameLayout", 
+              "visible-to-user": true
+            }
+          ], 
+          "adapter-view": false, 
+          "abs-pos": true, 
+          "pointer": "26bf533", 
+          "class": "android.widget.LinearLayout", 
+          "visible-to-user": true
+        }, 
+        {
+          "resource-id": "android:id/navigationBarBackground", 
+          "adapter-view": false, 
+          "pointer": "eb0ecba", 
+          "scrollable-horizontal": false, 
+          "ancestors": [
+            "java.lang.Object"
+          ], 
+          "selected": false, 
+          "content-desc": [
+            null
+          ], 
+          "rel-bounds": [
+            0, 
+            2392, 
+            1440, 
+            2560
+          ], 
+          "draw": false, 
+          "focusable": false, 
+          "long-clickable": false, 
+          "visibility": "visible", 
+          "focused": false, 
+          "clickable": false, 
+          "abs-pos": true, 
+          "class": "android.view.View", 
+          "visible-to-user": true, 
+          "package": "android", 
+          "enabled": true, 
+          "bounds": [
+            0, 
+            2392, 
+            1440, 
+            2560
+          ], 
+          "pressed": "not_pressed", 
+          "scrollable-vertical": false
+        }, 
+        {
+          "resource-id": "android:id/statusBarBackground", 
+          "adapter-view": false, 
+          "pointer": "b51a76b", 
+          "scrollable-horizontal": false, 
+          "ancestors": [
+            "java.lang.Object"
+          ], 
+          "selected": false, 
+          "content-desc": [
+            null
+          ], 
+          "rel-bounds": [
+            0, 
+            0, 
+            1440, 
+            84
+          ], 
+          "draw": false, 
+          "focusable": false, 
+          "long-clickable": false, 
+          "visibility": "visible", 
+          "focused": false, 
+          "clickable": false, 
+          "abs-pos": true, 
+          "class": "android.view.View", 
+          "visible-to-user": true, 
+          "package": "android", 
+          "enabled": true, 
+          "bounds": [
+            0, 
+            0, 
+            1440, 
+            84
+          ], 
+          "pressed": "not_pressed", 
+          "scrollable-vertical": false
+        }
+      ], 
+      "adapter-view": false, 
+      "abs-pos": true, 
+      "pointer": "70034a2", 
+      "class": "com.android.internal.policy.PhoneWindow$DecorView", 
+      "visible-to-user": true
+    }, 
+    "added_fragments": [], 
+    "active_fragments": []
+  }, 
+  "is_keyboard_deployed": false, 
+  "request_id": "1835"
+}

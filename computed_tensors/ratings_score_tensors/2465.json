@@ -1,0 +1,1355 @@
+{
+  "activity_name": "com.android.chrome/org.chromium.chrome.browser.ChromeTabbedActivity", 
+  "activity": {
+    "root": {
+      "scrollable-horizontal": false, 
+      "draw": true, 
+      "ancestors": [
+        "android.widget.FrameLayout", 
+        "android.view.ViewGroup", 
+        "android.view.View", 
+        "java.lang.Object"
+      ], 
+      "clickable": false, 
+      "pressed": "not_pressed", 
+      "focusable": false, 
+      "long-clickable": false, 
+      "enabled": true, 
+      "bounds": [
+        484, 
+        84, 
+        1440, 
+        1655
+      ], 
+      "visibility": "visible", 
+      "content-desc": [
+        null
+      ], 
+      "rel-bounds": [
+        0, 
+        0, 
+        956, 
+        1571
+      ], 
+      "focused": false, 
+      "selected": false, 
+      "scrollable-vertical": false, 
+      "children": [
+        {
+          "scrollable-horizontal": false, 
+          "draw": true, 
+          "ancestors": [
+            "android.widget.FrameLayout", 
+            "android.view.ViewGroup", 
+            "android.view.View", 
+            "java.lang.Object"
+          ], 
+          "clickable": false, 
+          "pressed": "not_pressed", 
+          "focusable": false, 
+          "long-clickable": false, 
+          "enabled": true, 
+          "bounds": [
+            484, 
+            84, 
+            1440, 
+            1655
+          ], 
+          "visibility": "visible", 
+          "content-desc": [
+            null
+          ], 
+          "rel-bounds": [
+            0, 
+            0, 
+            956, 
+            1571
+          ], 
+          "focused": false, 
+          "selected": false, 
+          "scrollable-vertical": false, 
+          "children": [
+            {
+              "scrollable-horizontal": false, 
+              "draw": false, 
+              "ancestors": [
+                "android.widget.ListView", 
+                "android.widget.AbsListView", 
+                "android.widget.AdapterView", 
+                "android.view.ViewGroup", 
+                "android.view.View", 
+                "java.lang.Object"
+              ], 
+              "clickable": true, 
+              "pressed": "not_pressed", 
+              "focusable": true, 
+              "long-clickable": false, 
+              "enabled": true, 
+              "bounds": [
+                523, 
+                98, 
+                1426, 
+                1610
+              ], 
+              "visibility": "visible", 
+              "content-desc": [
+                null
+              ], 
+              "rel-bounds": [
+                39, 
+                14, 
+                942, 
+                1526
+              ], 
+              "focused": true, 
+              "selected": false, 
+              "scrollable-vertical": true, 
+              "children": [
+                {
+                  "scrollable-horizontal": false, 
+                  "draw": true, 
+                  "ancestors": [
+                    "android.view.ViewGroup", 
+                    "android.view.View", 
+                    "java.lang.Object"
+                  ], 
+                  "clickable": false, 
+                  "pressed": "not_pressed", 
+                  "focusable": false, 
+                  "long-clickable": false, 
+                  "enabled": false, 
+                  "bounds": [
+                    523, 
+                    98, 
+                    1426, 
+                    266
+                  ], 
+                  "visibility": "visible", 
+                  "content-desc": [
+                    null
+                  ], 
+                  "rel-bounds": [
+                    0, 
+                    0, 
+                    903, 
+                    168
+                  ], 
+                  "focused": false, 
+                  "selected": false, 
+                  "scrollable-vertical": false, 
+                  "children": [
+                    {
+                      "resource-id": "com.android.chrome:id/button_one", 
+                      "adapter-view": false, 
+                      "pointer": "5a9d3d7", 
+                      "scrollable-horizontal": false, 
+                      "ancestors": [
+                        "android.widget.ImageButton", 
+                        "android.widget.ImageView", 
+                        "android.view.View", 
+                        "java.lang.Object"
+                      ], 
+                      "selected": false, 
+                      "content-desc": [
+                        "Go forward"
+                      ], 
+                      "rel-bounds": [
+                        0, 
+                        0, 
+                        225, 
+                        168
+                      ], 
+                      "draw": false, 
+                      "focusable": false, 
+                      "long-clickable": false, 
+                      "visibility": "visible", 
+                      "focused": false, 
+                      "clickable": true, 
+                      "abs-pos": true, 
+                      "class": "org.chromium.chrome.browser.widget.TintedImageButton", 
+                      "visible-to-user": true, 
+                      "package": "com.android.chrome", 
+                      "enabled": false, 
+                      "bounds": [
+                        523, 
+                        98, 
+                        748, 
+                        266
+                      ], 
+                      "pressed": "not_pressed", 
+                      "scrollable-vertical": false
+                    }, 
+                    {
+                      "resource-id": "com.android.chrome:id/button_two", 
+                      "adapter-view": false, 
+                      "pointer": "724e4c4", 
+                      "scrollable-horizontal": false, 
+                      "ancestors": [
+                        "android.widget.ImageButton", 
+                        "android.widget.ImageView", 
+                        "android.view.View", 
+                        "java.lang.Object"
+                      ], 
+                      "selected": false, 
+                      "content-desc": [
+                        "Bookmark this page"
+                      ], 
+                      "rel-bounds": [
+                        225, 
+                        0, 
+                        451, 
+                        168
+                      ], 
+                      "draw": false, 
+                      "focusable": true, 
+                      "long-clickable": false, 
+                      "visibility": "visible", 
+                      "focused": false, 
+                      "clickable": true, 
+                      "abs-pos": true, 
+                      "class": "org.chromium.chrome.browser.widget.TintedImageButton", 
+                      "visible-to-user": true, 
+                      "package": "com.android.chrome", 
+                      "enabled": true, 
+                      "bounds": [
+                        748, 
+                        98, 
+                        974, 
+                        266
+                      ], 
+                      "pressed": "not_pressed", 
+                      "scrollable-vertical": false
+                    }, 
+                    {
+                      "resource-id": "com.android.chrome:id/button_three", 
+                      "adapter-view": false, 
+                      "pointer": "c014fad", 
+                      "scrollable-horizontal": false, 
+                      "ancestors": [
+                        "android.widget.ImageButton", 
+                        "android.widget.ImageView", 
+                        "android.view.View", 
+                        "java.lang.Object"
+                      ], 
+                      "selected": false, 
+                      "content-desc": [
+                        "Download page"
+                      ], 
+                      "rel-bounds": [
+                        0, 
+                        0, 
+                        0, 
+                        0
+                      ], 
+                      "draw": false, 
+                      "focusable": true, 
+                      "long-clickable": false, 
+                      "visibility": "gone", 
+                      "focused": false, 
+                      "clickable": true, 
+                      "abs-pos": true, 
+                      "class": "org.chromium.chrome.browser.widget.TintedImageButton", 
+                      "visible-to-user": false, 
+                      "package": "com.android.chrome", 
+                      "enabled": true, 
+                      "bounds": [
+                        523, 
+                        98, 
+                        523, 
+                        98
+                      ], 
+                      "pressed": "not_pressed", 
+                      "scrollable-vertical": false
+                    }, 
+                    {
+                      "resource-id": "com.android.chrome:id/button_four", 
+                      "adapter-view": false, 
+                      "pointer": "fa3d2e2", 
+                      "scrollable-horizontal": false, 
+                      "ancestors": [
+                        "android.widget.ImageButton", 
+                        "android.widget.ImageView", 
+                        "android.view.View", 
+                        "java.lang.Object"
+                      ], 
+                      "selected": false, 
+                      "content-desc": [
+                        "View site information"
+                      ], 
+                      "rel-bounds": [
+                        451, 
+                        0, 
+                        677, 
+                        168
+                      ], 
+                      "draw": false, 
+                      "focusable": true, 
+                      "long-clickable": false, 
+                      "visibility": "visible", 
+                      "focused": false, 
+                      "clickable": true, 
+                      "abs-pos": true, 
+                      "class": "org.chromium.chrome.browser.widget.TintedImageButton", 
+                      "visible-to-user": true, 
+                      "package": "com.android.chrome", 
+                      "enabled": true, 
+                      "bounds": [
+                        974, 
+                        98, 
+                        1200, 
+                        266
+                      ], 
+                      "pressed": "not_pressed", 
+                      "scrollable-vertical": false
+                    }, 
+                    {
+                      "resource-id": "com.android.chrome:id/button_five", 
+                      "adapter-view": false, 
+                      "pointer": "fcdd673", 
+                      "scrollable-horizontal": false, 
+                      "ancestors": [
+                        "android.widget.ImageButton", 
+                        "android.widget.ImageView", 
+                        "android.view.View", 
+                        "java.lang.Object"
+                      ], 
+                      "selected": false, 
+                      "content-desc": [
+                        "Refresh page"
+                      ], 
+                      "rel-bounds": [
+                        677, 
+                        0, 
+                        903, 
+                        168
+                      ], 
+                      "draw": false, 
+                      "focusable": true, 
+                      "long-clickable": false, 
+                      "visibility": "visible", 
+                      "focused": false, 
+                      "clickable": true, 
+                      "abs-pos": true, 
+                      "class": "org.chromium.chrome.browser.widget.TintedImageButton", 
+                      "visible-to-user": true, 
+                      "package": "com.android.chrome", 
+                      "enabled": true, 
+                      "bounds": [
+                        1200, 
+                        98, 
+                        1426, 
+                        266
+                      ], 
+                      "pressed": "not_pressed", 
+                      "scrollable-vertical": false
+                    }
+                  ], 
+                  "adapter-view": false, 
+                  "abs-pos": true, 
+                  "pointer": "64d9756", 
+                  "class": "android.widget.LinearLayout", 
+                  "visible-to-user": true
+                }, 
+                {
+                  "scrollable-horizontal": false, 
+                  "draw": true, 
+                  "ancestors": [
+                    "android.view.ViewGroup", 
+                    "android.view.View", 
+                    "java.lang.Object"
+                  ], 
+                  "clickable": true, 
+                  "pressed": "not_pressed", 
+                  "focusable": false, 
+                  "long-clickable": false, 
+                  "enabled": true, 
+                  "bounds": [
+                    523, 
+                    266, 
+                    1426, 
+                    434
+                  ], 
+                  "visibility": "visible", 
+                  "content-desc": [
+                    null
+                  ], 
+                  "rel-bounds": [
+                    0, 
+                    168, 
+                    903, 
+                    336
+                  ], 
+                  "focused": false, 
+                  "selected": false, 
+                  "scrollable-vertical": false, 
+                  "children": [
+                    {
+                      "text": "New tab", 
+                      "resource-id": "com.android.chrome:id/menu_item_text", 
+                      "adapter-view": false, 
+                      "pointer": "d1039a9", 
+                      "scrollable-horizontal": false, 
+                      "ancestors": [
+                        "android.widget.TextView", 
+                        "android.view.View", 
+                        "java.lang.Object"
+                      ], 
+                      "selected": false, 
+                      "content-desc": [
+                        "New tab"
+                      ], 
+                      "rel-bounds": [
+                        56, 
+                        0, 
+                        847, 
+                        168
+                      ], 
+                      "draw": false, 
+                      "focusable": false, 
+                      "long-clickable": false, 
+                      "visibility": "visible", 
+                      "focused": false, 
+                      "clickable": false, 
+                      "abs-pos": true, 
+                      "font-family": "sans-serif", 
+                      "class": "android.support.v7.widget.Kv", 
+                      "visible-to-user": true, 
+                      "package": "com.android.chrome", 
+                      "enabled": true, 
+                      "bounds": [
+                        579, 
+                        266, 
+                        1370, 
+                        434
+                      ], 
+                      "pressed": "not_pressed", 
+                      "scrollable-vertical": false
+                    }, 
+                    {
+                      "resource-id": "com.android.chrome:id/menu_item_icon", 
+                      "adapter-view": false, 
+                      "pointer": "3303b2e", 
+                      "scrollable-horizontal": false, 
+                      "ancestors": [
+                        "android.widget.ImageView", 
+                        "android.view.View", 
+                        "java.lang.Object"
+                      ], 
+                      "selected": false, 
+                      "content-desc": [
+                        null
+                      ], 
+                      "rel-bounds": [
+                        0, 
+                        0, 
+                        0, 
+                        0
+                      ], 
+                      "draw": false, 
+                      "focusable": false, 
+                      "long-clickable": false, 
+                      "visibility": "gone", 
+                      "focused": false, 
+                      "clickable": false, 
+                      "abs-pos": true, 
+                      "class": "org.chromium.chrome.browser.appmenu.AppMenuItemIcon", 
+                      "visible-to-user": false, 
+                      "package": "com.android.chrome", 
+                      "enabled": true, 
+                      "bounds": [
+                        523, 
+                        266, 
+                        523, 
+                        266
+                      ], 
+                      "pressed": "not_pressed", 
+                      "scrollable-vertical": false
+                    }
+                  ], 
+                  "adapter-view": false, 
+                  "abs-pos": true, 
+                  "pointer": "1ed8930", 
+                  "class": "android.widget.LinearLayout", 
+                  "visible-to-user": true
+                }, 
+                {
+                  "scrollable-horizontal": false, 
+                  "draw": true, 
+                  "ancestors": [
+                    "android.view.ViewGroup", 
+                    "android.view.View", 
+                    "java.lang.Object"
+                  ], 
+                  "clickable": true, 
+                  "pressed": "not_pressed", 
+                  "focusable": false, 
+                  "long-clickable": false, 
+                  "enabled": true, 
+                  "bounds": [
+                    523, 
+                    434, 
+                    1426, 
+                    602
+                  ], 
+                  "visibility": "visible", 
+                  "content-desc": [
+                    null
+                  ], 
+                  "rel-bounds": [
+                    0, 
+                    336, 
+                    903, 
+                    504
+                  ], 
+                  "focused": false, 
+                  "selected": false, 
+                  "scrollable-vertical": false, 
+                  "children": [
+                    {
+                      "text": "New incognito tab", 
+                      "resource-id": "com.android.chrome:id/menu_item_text", 
+                      "adapter-view": false, 
+                      "pointer": "55a085c", 
+                      "scrollable-horizontal": false, 
+                      "ancestors": [
+                        "android.widget.TextView", 
+                        "android.view.View", 
+                        "java.lang.Object"
+                      ], 
+                      "selected": false, 
+                      "content-desc": [
+                        "New incognito tab"
+                      ], 
+                      "rel-bounds": [
+                        56, 
+                        0, 
+                        847, 
+                        168
+                      ], 
+                      "draw": false, 
+                      "focusable": false, 
+                      "long-clickable": false, 
+                      "visibility": "visible", 
+                      "focused": false, 
+                      "clickable": false, 
+                      "abs-pos": true, 
+                      "font-family": "sans-serif", 
+                      "class": "android.support.v7.widget.Kv", 
+                      "visible-to-user": true, 
+                      "package": "com.android.chrome", 
+                      "enabled": true, 
+                      "bounds": [
+                        579, 
+                        434, 
+                        1370, 
+                        602
+                      ], 
+                      "pressed": "not_pressed", 
+                      "scrollable-vertical": false
+                    }, 
+                    {
+                      "resource-id": "com.android.chrome:id/menu_item_icon", 
+                      "adapter-view": false, 
+                      "pointer": "909c765", 
+                      "scrollable-horizontal": false, 
+                      "ancestors": [
+                        "android.widget.ImageView", 
+                        "android.view.View", 
+                        "java.lang.Object"
+                      ], 
+                      "selected": false, 
+                      "content-desc": [
+                        null
+                      ], 
+                      "rel-bounds": [
+                        0, 
+                        0, 
+                        0, 
+                        0
+                      ], 
+                      "draw": false, 
+                      "focusable": false, 
+                      "long-clickable": false, 
+                      "visibility": "gone", 
+                      "focused": false, 
+                      "clickable": false, 
+                      "abs-pos": true, 
+                      "class": "org.chromium.chrome.browser.appmenu.AppMenuItemIcon", 
+                      "visible-to-user": false, 
+                      "package": "com.android.chrome", 
+                      "enabled": true, 
+                      "bounds": [
+                        523, 
+                        434, 
+                        523, 
+                        434
+                      ], 
+                      "pressed": "not_pressed", 
+                      "scrollable-vertical": false
+                    }
+                  ], 
+                  "adapter-view": false, 
+                  "abs-pos": true, 
+                  "pointer": "12566cf", 
+                  "class": "android.widget.LinearLayout", 
+                  "visible-to-user": true
+                }, 
+                {
+                  "scrollable-horizontal": false, 
+                  "draw": true, 
+                  "ancestors": [
+                    "android.view.ViewGroup", 
+                    "android.view.View", 
+                    "java.lang.Object"
+                  ], 
+                  "clickable": true, 
+                  "pressed": "not_pressed", 
+                  "focusable": false, 
+                  "long-clickable": false, 
+                  "enabled": true, 
+                  "bounds": [
+                    523, 
+                    602, 
+                    1426, 
+                    770
+                  ], 
+                  "visibility": "visible", 
+                  "content-desc": [
+                    null
+                  ], 
+                  "rel-bounds": [
+                    0, 
+                    504, 
+                    903, 
+                    672
+                  ], 
+                  "focused": false, 
+                  "selected": false, 
+                  "scrollable-vertical": false, 
+                  "children": [
+                    {
+                      "text": "Bookmarks", 
+                      "resource-id": "com.android.chrome:id/menu_item_text", 
+                      "adapter-view": false, 
+                      "pointer": "2bba0eb", 
+                      "scrollable-horizontal": false, 
+                      "ancestors": [
+                        "android.widget.TextView", 
+                        "android.view.View", 
+                        "java.lang.Object"
+                      ], 
+                      "selected": false, 
+                      "content-desc": [
+                        "Bookmarks"
+                      ], 
+                      "rel-bounds": [
+                        56, 
+                        0, 
+                        847, 
+                        168
+                      ], 
+                      "draw": false, 
+                      "focusable": false, 
+                      "long-clickable": false, 
+                      "visibility": "visible", 
+                      "focused": false, 
+                      "clickable": false, 
+                      "abs-pos": true, 
+                      "font-family": "sans-serif", 
+                      "class": "android.support.v7.widget.Kv", 
+                      "visible-to-user": true, 
+                      "package": "com.android.chrome", 
+                      "enabled": true, 
+                      "bounds": [
+                        579, 
+                        602, 
+                        1370, 
+                        770
+                      ], 
+                      "pressed": "not_pressed", 
+                      "scrollable-vertical": false
+                    }, 
+                    {
+                      "resource-id": "com.android.chrome:id/menu_item_icon", 
+                      "adapter-view": false, 
+                      "pointer": "5ad4e48", 
+                      "scrollable-horizontal": false, 
+                      "ancestors": [
+                        "android.widget.ImageView", 
+                        "android.view.View", 
+                        "java.lang.Object"
+                      ], 
+                      "selected": false, 
+                      "content-desc": [
+                        null
+                      ], 
+                      "rel-bounds": [
+                        0, 
+                        0, 
+                        0, 
+                        0
+                      ], 
+                      "draw": false, 
+                      "focusable": false, 
+                      "long-clickable": false, 
+                      "visibility": "gone", 
+                      "focused": false, 
+                      "clickable": false, 
+                      "abs-pos": true, 
+                      "class": "org.chromium.chrome.browser.appmenu.AppMenuItemIcon", 
+                      "visible-to-user": false, 
+                      "package": "com.android.chrome", 
+                      "enabled": true, 
+                      "bounds": [
+                        523, 
+                        602, 
+                        523, 
+                        602
+                      ], 
+                      "pressed": "not_pressed", 
+                      "scrollable-vertical": false
+                    }
+                  ], 
+                  "adapter-view": false, 
+                  "abs-pos": true, 
+                  "pointer": "108dc3a", 
+                  "class": "android.widget.LinearLayout", 
+                  "visible-to-user": true
+                }, 
+                {
+                  "scrollable-horizontal": false, 
+                  "draw": true, 
+                  "ancestors": [
+                    "android.view.ViewGroup", 
+                    "android.view.View", 
+                    "java.lang.Object"
+                  ], 
+                  "clickable": true, 
+                  "pressed": "not_pressed", 
+                  "focusable": false, 
+                  "long-clickable": false, 
+                  "enabled": true, 
+                  "bounds": [
+                    523, 
+                    770, 
+                    1426, 
+                    938
+                  ], 
+                  "visibility": "visible", 
+                  "content-desc": [
+                    null
+                  ], 
+                  "rel-bounds": [
+                    0, 
+                    672, 
+                    903, 
+                    840
+                  ], 
+                  "focused": false, 
+                  "selected": false, 
+                  "scrollable-vertical": false, 
+                  "children": [
+                    {
+                      "text": "Recent tabs", 
+                      "resource-id": "com.android.chrome:id/menu_item_text", 
+                      "adapter-view": false, 
+                      "pointer": "2988206", 
+                      "scrollable-horizontal": false, 
+                      "ancestors": [
+                        "android.widget.TextView", 
+                        "android.view.View", 
+                        "java.lang.Object"
+                      ], 
+                      "selected": false, 
+                      "content-desc": [
+                        "Recent tabs"
+                      ], 
+                      "rel-bounds": [
+                        56, 
+                        0, 
+                        847, 
+                        168
+                      ], 
+                      "draw": false, 
+                      "focusable": false, 
+                      "long-clickable": false, 
+                      "visibility": "visible", 
+                      "focused": false, 
+                      "clickable": false, 
+                      "abs-pos": true, 
+                      "font-family": "sans-serif", 
+                      "class": "android.support.v7.widget.Kv", 
+                      "visible-to-user": true, 
+                      "package": "com.android.chrome", 
+                      "enabled": true, 
+                      "bounds": [
+                        579, 
+                        770, 
+                        1370, 
+                        938
+                      ], 
+                      "pressed": "not_pressed", 
+                      "scrollable-vertical": false
+                    }, 
+                    {
+                      "resource-id": "com.android.chrome:id/menu_item_icon", 
+                      "adapter-view": false, 
+                      "pointer": "93160c7", 
+                      "scrollable-horizontal": false, 
+                      "ancestors": [
+                        "android.widget.ImageView", 
+                        "android.view.View", 
+                        "java.lang.Object"
+                      ], 
+                      "selected": false, 
+                      "content-desc": [
+                        null
+                      ], 
+                      "rel-bounds": [
+                        0, 
+                        0, 
+                        0, 
+                        0
+                      ], 
+                      "draw": false, 
+                      "focusable": false, 
+                      "long-clickable": false, 
+                      "visibility": "gone", 
+                      "focused": false, 
+                      "clickable": false, 
+                      "abs-pos": true, 
+                      "class": "org.chromium.chrome.browser.appmenu.AppMenuItemIcon", 
+                      "visible-to-user": false, 
+                      "package": "com.android.chrome", 
+                      "enabled": true, 
+                      "bounds": [
+                        523, 
+                        770, 
+                        523, 
+                        770
+                      ], 
+                      "pressed": "not_pressed", 
+                      "scrollable-vertical": false
+                    }
+                  ], 
+                  "adapter-view": false, 
+                  "abs-pos": true, 
+                  "pointer": "c5474e1", 
+                  "class": "android.widget.LinearLayout", 
+                  "visible-to-user": true
+                }, 
+                {
+                  "scrollable-horizontal": false, 
+                  "draw": true, 
+                  "ancestors": [
+                    "android.view.ViewGroup", 
+                    "android.view.View", 
+                    "java.lang.Object"
+                  ], 
+                  "clickable": true, 
+                  "pressed": "not_pressed", 
+                  "focusable": false, 
+                  "long-clickable": false, 
+                  "enabled": true, 
+                  "bounds": [
+                    523, 
+                    938, 
+                    1426, 
+                    1106
+                  ], 
+                  "visibility": "visible", 
+                  "content-desc": [
+                    null
+                  ], 
+                  "rel-bounds": [
+                    0, 
+                    840, 
+                    903, 
+                    1008
+                  ], 
+                  "focused": false, 
+                  "selected": false, 
+                  "scrollable-vertical": false, 
+                  "children": [
+                    {
+                      "text": "History", 
+                      "resource-id": "com.android.chrome:id/menu_item_text", 
+                      "adapter-view": false, 
+                      "pointer": "9427e1d", 
+                      "scrollable-horizontal": false, 
+                      "ancestors": [
+                        "android.widget.TextView", 
+                        "android.view.View", 
+                        "java.lang.Object"
+                      ], 
+                      "selected": false, 
+                      "content-desc": [
+                        "History"
+                      ], 
+                      "rel-bounds": [
+                        56, 
+                        0, 
+                        847, 
+                        168
+                      ], 
+                      "draw": false, 
+                      "focusable": false, 
+                      "long-clickable": false, 
+                      "visibility": "visible", 
+                      "focused": false, 
+                      "clickable": false, 
+                      "abs-pos": true, 
+                      "font-family": "sans-serif", 
+                      "class": "android.support.v7.widget.Kv", 
+                      "visible-to-user": true, 
+                      "package": "com.android.chrome", 
+                      "enabled": true, 
+                      "bounds": [
+                        579, 
+                        938, 
+                        1370, 
+                        1106
+                      ], 
+                      "pressed": "not_pressed", 
+                      "scrollable-vertical": false
+                    }, 
+                    {
+                      "resource-id": "com.android.chrome:id/menu_item_icon", 
+                      "adapter-view": false, 
+                      "pointer": "b2ab892", 
+                      "scrollable-horizontal": false, 
+                      "ancestors": [
+                        "android.widget.ImageView", 
+                        "android.view.View", 
+                        "java.lang.Object"
+                      ], 
+                      "selected": false, 
+                      "content-desc": [
+                        null
+                      ], 
+                      "rel-bounds": [
+                        0, 
+                        0, 
+                        0, 
+                        0
+                      ], 
+                      "draw": false, 
+                      "focusable": false, 
+                      "long-clickable": false, 
+                      "visibility": "gone", 
+                      "focused": false, 
+                      "clickable": false, 
+                      "abs-pos": true, 
+                      "class": "org.chromium.chrome.browser.appmenu.AppMenuItemIcon", 
+                      "visible-to-user": false, 
+                      "package": "com.android.chrome", 
+                      "enabled": true, 
+                      "bounds": [
+                        523, 
+                        938, 
+                        523, 
+                        938
+                      ], 
+                      "pressed": "not_pressed", 
+                      "scrollable-vertical": false
+                    }
+                  ], 
+                  "adapter-view": false, 
+                  "abs-pos": true, 
+                  "pointer": "66d06f4", 
+                  "class": "android.widget.LinearLayout", 
+                  "visible-to-user": true
+                }, 
+                {
+                  "scrollable-horizontal": false, 
+                  "draw": true, 
+                  "ancestors": [
+                    "android.view.ViewGroup", 
+                    "android.view.View", 
+                    "java.lang.Object"
+                  ], 
+                  "clickable": true, 
+                  "pressed": "not_pressed", 
+                  "focusable": false, 
+                  "long-clickable": false, 
+                  "enabled": true, 
+                  "bounds": [
+                    523, 
+                    1106, 
+                    1426, 
+                    1274
+                  ], 
+                  "visibility": "visible", 
+                  "content-desc": [
+                    null
+                  ], 
+                  "rel-bounds": [
+                    0, 
+                    1008, 
+                    903, 
+                    1176
+                  ], 
+                  "focused": false, 
+                  "selected": false, 
+                  "scrollable-vertical": false, 
+                  "children": [
+                    {
+                      "text": "Request desktop site", 
+                      "resource-id": "com.android.chrome:id/menu_item_text", 
+                      "adapter-view": false, 
+                      "pointer": "bcd9e60", 
+                      "scrollable-horizontal": false, 
+                      "ancestors": [
+                        "android.widget.TextView", 
+                        "android.view.View", 
+                        "java.lang.Object"
+                      ], 
+                      "selected": false, 
+                      "content-desc": [
+                        "Turn on Request desktop site"
+                      ], 
+                      "rel-bounds": [
+                        56, 
+                        0, 
+                        735, 
+                        168
+                      ], 
+                      "draw": false, 
+                      "focusable": false, 
+                      "long-clickable": false, 
+                      "visibility": "visible", 
+                      "focused": false, 
+                      "clickable": false, 
+                      "abs-pos": true, 
+                      "font-family": "sans-serif", 
+                      "class": "android.support.v7.widget.Kv", 
+                      "visible-to-user": true, 
+                      "package": "com.android.chrome", 
+                      "enabled": true, 
+                      "bounds": [
+                        579, 
+                        1106, 
+                        1258, 
+                        1274
+                      ], 
+                      "pressed": "not_pressed", 
+                      "scrollable-vertical": false
+                    }, 
+                    {
+                      "resource-id": "com.android.chrome:id/menu_item_icon", 
+                      "adapter-view": false, 
+                      "pointer": "b0ddf19", 
+                      "scrollable-horizontal": false, 
+                      "ancestors": [
+                        "android.widget.ImageView", 
+                        "android.view.View", 
+                        "java.lang.Object"
+                      ], 
+                      "selected": false, 
+                      "content-desc": [
+                        null
+                      ], 
+                      "rel-bounds": [
+                        735, 
+                        0, 
+                        847, 
+                        168
+                      ], 
+                      "draw": false, 
+                      "focusable": false, 
+                      "long-clickable": false, 
+                      "visibility": "visible", 
+                      "focused": false, 
+                      "clickable": false, 
+                      "abs-pos": true, 
+                      "class": "org.chromium.chrome.browser.appmenu.AppMenuItemIcon", 
+                      "visible-to-user": true, 
+                      "package": "com.android.chrome", 
+                      "enabled": true, 
+                      "bounds": [
+                        1258, 
+                        1106, 
+                        1370, 
+                        1274
+                      ], 
+                      "pressed": "not_pressed", 
+                      "scrollable-vertical": false
+                    }
+                  ], 
+                  "adapter-view": false, 
+                  "abs-pos": true, 
+                  "pointer": "8594263", 
+                  "class": "android.widget.LinearLayout", 
+                  "visible-to-user": true
+                }, 
+                {
+                  "scrollable-horizontal": false, 
+                  "draw": true, 
+                  "ancestors": [
+                    "android.view.ViewGroup", 
+                    "android.view.View", 
+                    "java.lang.Object"
+                  ], 
+                  "clickable": true, 
+                  "pressed": "not_pressed", 
+                  "focusable": false, 
+                  "long-clickable": false, 
+                  "enabled": true, 
+                  "bounds": [
+                    523, 
+                    1274, 
+                    1426, 
+                    1442
+                  ], 
+                  "visibility": "visible", 
+                  "content-desc": [
+                    null
+                  ], 
+                  "rel-bounds": [
+                    0, 
+                    1176, 
+                    903, 
+                    1344
+                  ], 
+                  "focused": false, 
+                  "selected": false, 
+                  "scrollable-vertical": false, 
+                  "children": [
+                    {
+                      "text": "Settings", 
+                      "resource-id": "com.android.chrome:id/menu_item_text", 
+                      "adapter-view": false, 
+                      "pointer": "493a1bf", 
+                      "scrollable-horizontal": false, 
+                      "ancestors": [
+                        "android.widget.TextView", 
+                        "android.view.View", 
+                        "java.lang.Object"
+                      ], 
+                      "selected": false, 
+                      "content-desc": [
+                        "Settings"
+                      ], 
+                      "rel-bounds": [
+                        56, 
+                        0, 
+                        847, 
+                        168
+                      ], 
+                      "draw": false, 
+                      "focusable": false, 
+                      "long-clickable": false, 
+                      "visibility": "visible", 
+                      "focused": false, 
+                      "clickable": false, 
+                      "abs-pos": true, 
+                      "font-family": "sans-serif", 
+                      "class": "android.support.v7.widget.Kv", 
+                      "visible-to-user": true, 
+                      "package": "com.android.chrome", 
+                      "enabled": true, 
+                      "bounds": [
+                        579, 
+                        1274, 
+                        1370, 
+                        1442
+                      ], 
+                      "pressed": "not_pressed", 
+                      "scrollable-vertical": false
+                    }, 
+                    {
+                      "resource-id": "com.android.chrome:id/menu_item_icon", 
+                      "adapter-view": false, 
+                      "pointer": "6de408c", 
+                      "scrollable-horizontal": false, 
+                      "ancestors": [
+                        "android.widget.ImageView", 
+                        "android.view.View", 
+                        "java.lang.Object"
+                      ], 
+                      "selected": false, 
+                      "content-desc": [
+                        null
+                      ], 
+                      "rel-bounds": [
+                        0, 
+                        0, 
+                        0, 
+                        0
+                      ], 
+                      "draw": false, 
+                      "focusable": false, 
+                      "long-clickable": false, 
+                      "visibility": "gone", 
+                      "focused": false, 
+                      "clickable": false, 
+                      "abs-pos": true, 
+                      "class": "org.chromium.chrome.browser.appmenu.AppMenuItemIcon", 
+                      "visible-to-user": false, 
+                      "package": "com.android.chrome", 
+                      "enabled": true, 
+                      "bounds": [
+                        523, 
+                        1274, 
+                        523, 
+                        1274
+                      ], 
+                      "pressed": "not_pressed", 
+                      "scrollable-vertical": false
+                    }
+                  ], 
+                  "adapter-view": false, 
+                  "abs-pos": true, 
+                  "pointer": "537cbde", 
+                  "class": "android.widget.LinearLayout", 
+                  "visible-to-user": true
+                }, 
+                {
+                  "scrollable-horizontal": false, 
+                  "draw": true, 
+                  "ancestors": [
+                    "android.view.ViewGroup", 
+                    "android.view.View", 
+                    "java.lang.Object"
+                  ], 
+                  "clickable": true, 
+                  "pressed": "not_pressed", 
+                  "focusable": false, 
+                  "long-clickable": false, 
+                  "enabled": true, 
+                  "bounds": [
+                    523, 
+                    1442, 
+                    1426, 
+                    1610
+                  ], 
+                  "visibility": "visible", 
+                  "content-desc": [
+                    null
+                  ], 
+                  "rel-bounds": [
+                    0, 
+                    1344, 
+                    903, 
+                    1512
+                  ], 
+                  "focused": false, 
+                  "selected": false, 
+                  "scrollable-vertical": false, 
+                  "children": [
+                    {
+                      "text": "Help & feedback", 
+                      "resource-id": "com.android.chrome:id/menu_item_text", 
+                      "adapter-view": false, 
+                      "pointer": "870c7ea", 
+                      "scrollable-horizontal": false, 
+                      "ancestors": [
+                        "android.widget.TextView", 
+                        "android.view.View", 
+                        "java.lang.Object"
+                      ], 
+                      "selected": false, 
+                      "content-desc": [
+                        "Help & feedback"
+                      ], 
+                      "rel-bounds": [
+                        56, 
+                        0, 
+                        847, 
+                        168
+                      ], 
+                      "draw": false, 
+                      "focusable": false, 
+                      "long-clickable": false, 
+                      "visibility": "visible", 
+                      "focused": false, 
+                      "clickable": false, 
+                      "abs-pos": true, 
+                      "font-family": "sans-serif", 
+                      "class": "android.support.v7.widget.Kv", 
+                      "visible-to-user": true, 
+                      "package": "com.android.chrome", 
+                      "enabled": true, 
+                      "bounds": [
+                        579, 
+                        1442, 
+                        1370, 
+                        1610
+                      ], 
+                      "pressed": "not_pressed", 
+                      "scrollable-vertical": false
+                    }, 
+                    {
+                      "resource-id": "com.android.chrome:id/menu_item_icon", 
+                      "adapter-view": false, 
+                      "pointer": "dea9adb", 
+                      "scrollable-horizontal": false, 
+                      "ancestors": [
+                        "android.widget.ImageView", 
+                        "android.view.View", 
+                        "java.lang.Object"
+                      ], 
+                      "selected": false, 
+                      "content-desc": [
+                        null
+                      ], 
+                      "rel-bounds": [
+                        0, 
+                        0, 
+                        0, 
+                        0
+                      ], 
+                      "draw": false, 
+                      "focusable": false, 
+                      "long-clickable": false, 
+                      "visibility": "gone", 
+                      "focused": false, 
+                      "clickable": false, 
+                      "abs-pos": true, 
+                      "class": "org.chromium.chrome.browser.appmenu.AppMenuItemIcon", 
+                      "visible-to-user": false, 
+                      "package": "com.android.chrome", 
+                      "enabled": true, 
+                      "bounds": [
+                        523, 
+                        1442, 
+                        523, 
+                        1442
+                      ], 
+                      "pressed": "not_pressed", 
+                      "scrollable-vertical": false
+                    }
+                  ], 
+                  "adapter-view": false, 
+                  "abs-pos": true, 
+                  "pointer": "c9453d5", 
+                  "class": "android.widget.LinearLayout", 
+                  "visible-to-user": true
+                }
+              ], 
+              "adapter-view": true, 
+              "abs-pos": true, 
+              "pointer": "b9bd507", 
+              "class": "android.widget.ListPopupWindow$DropDownListView", 
+              "visible-to-user": true
+            }
+          ], 
+          "adapter-view": false, 
+          "abs-pos": true, 
+          "pointer": "9793c2c", 
+          "class": "android.widget.PopupWindow$PopupBackgroundView", 
+          "visible-to-user": true
+        }
+      ], 
+      "adapter-view": false, 
+      "abs-pos": true, 
+      "pointer": "754c7df", 
+      "class": "android.widget.PopupWindow$PopupDecorView", 
+      "visible-to-user": true
+    }, 
+    "added_fragments": [], 
+    "active_fragments": []
+  }, 
+  "is_keyboard_deployed": false, 
+  "request_id": "548"
+}
